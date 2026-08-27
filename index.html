@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="refresh" content="0;url=dashboard.html?static=1">
+  <title>Fund</title>
+</head>
+<body>
+  <p>正在打开 <a href="dashboard.html?static=1">Fund 静态快照</a>……</p>
+  <script>
+    const target=new URL('dashboard.html',location.href);
+    target.search=location.search;
+    target.searchParams.set('static','1');
+    target.hash=location.hash;
+    location.replace(target);
+  </script>
+</body>
+</html>

@@ -1,0 +1,1466 @@
+{
+  "kind": "hard_tech_fund_detail.v1",
+  "generated_at": "2026-08-27T20:10:21+08:00",
+  "as_of": "2026-08-27T15:00:00+08:00",
+  "market_status": "已收盘",
+  "fund": {
+    "code": "013841",
+    "name": "银华集成电路混合C",
+    "themes": [
+      "半导体"
+    ],
+    "focus": "半导体设备、零部件与量测",
+    "selection_source": "https://fund.eastmoney.com/a/202607203813439327.html",
+    "estimate_pct": 2.5887217548815955,
+    "estimated_nav": 3.2464200999332276,
+    "previous_nav": {
+      "date": "2026-08-26",
+      "unit_nav": 3.1645,
+      "cumulative_nav": 3.1645,
+      "return_pct": 2.81
+    },
+    "stock_allocation_pct": 94.56,
+    "allocation_date": "2026-06-30",
+    "holding_report_date": "2026-06-30",
+    "holding_disclosure_age_days": 58,
+    "top10_weight_pct": 72.21,
+    "top10_direct_contribution_pct_point": 1.976857,
+    "top10_normalized_pct": 2.737649909984767,
+    "theme_disclosed_weights_pct": {
+      "CPO": 0,
+      "半导体": 72.21,
+      "PCB": 0,
+      "MLCC": 0
+    },
+    "quote_count": 8,
+    "holding_count": 8,
+    "max_crosscheck_difference_pct_point": 0.0,
+    "posture": "研究级估算",
+    "holdings": [
+      {
+        "code": "688361",
+        "market": 1,
+        "name": "中科飞测",
+        "weight_pct": 10.55,
+        "shares_10k": 683.1,
+        "market_value_10k": 293731.24,
+        "price": 373.71,
+        "return_pct": 3.23,
+        "quote_time": "2026-08-27T16:11:37+08:00",
+        "contribution_pct_point": 0.34076500000000004,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      },
+      {
+        "code": "688037",
+        "market": 1,
+        "name": "芯源微",
+        "weight_pct": 10.03,
+        "shares_10k": 636.09,
+        "market_value_10k": 279274.35,
+        "price": 375.0,
+        "return_pct": 0.58,
+        "quote_time": "2026-08-27T16:11:46+08:00",
+        "contribution_pct_point": 0.05817399999999999,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      },
+      {
+        "code": "688120",
+        "market": 1,
+        "name": "华海清科",
+        "weight_pct": 9.79,
+        "shares_10k": 846.28,
+        "market_value_10k": 272654.59,
+        "price": 267.1,
+        "return_pct": 1.88,
+        "quote_time": "2026-08-27T16:11:38+08:00",
+        "contribution_pct_point": 0.18405199999999997,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      },
+      {
+        "code": "300567",
+        "market": 0,
+        "name": "精测电子",
+        "weight_pct": 9.56,
+        "shares_10k": 838.4,
+        "market_value_10k": 266274.73,
+        "price": 221.8,
+        "return_pct": 5.32,
+        "quote_time": "2026-08-27T15:34:57+08:00",
+        "contribution_pct_point": 0.508592,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      },
+      {
+        "code": "002371",
+        "market": 0,
+        "name": "北方华创",
+        "weight_pct": 9.41,
+        "shares_10k": 296.31,
+        "market_value_10k": 262102.65,
+        "price": 718.0,
+        "return_pct": 2.47,
+        "quote_time": "2026-08-27T15:34:39+08:00",
+        "contribution_pct_point": 0.23242700000000002,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      },
+      {
+        "code": "688012",
+        "market": 1,
+        "name": "中微公司",
+        "weight_pct": 9.37,
+        "shares_10k": 556.83,
+        "market_value_10k": 260873.26,
+        "price": 376.01,
+        "return_pct": 2.16,
+        "quote_time": "2026-08-27T16:11:35+08:00",
+        "contribution_pct_point": 0.20239200000000002,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      },
+      {
+        "code": "688072",
+        "market": 1,
+        "name": "拓荆科技",
+        "weight_pct": 7.45,
+        "shares_10k": 235.97,
+        "market_value_10k": 207543.93,
+        "price": 693.0,
+        "return_pct": 2.66,
+        "quote_time": "2026-08-27T16:11:43+08:00",
+        "contribution_pct_point": 0.19817,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      },
+      {
+        "code": "688409",
+        "market": 1,
+        "name": "富创精密",
+        "weight_pct": 6.05,
+        "shares_10k": 550.28,
+        "market_value_10k": 168523.28,
+        "price": 215.0,
+        "return_pct": 4.17,
+        "quote_time": "2026-08-27T16:11:53+08:00",
+        "contribution_pct_point": 0.252285,
+        "crosscheck_difference_pct_point": 0.0,
+        "theme_tags": [
+          "半导体"
+        ]
+      }
+    ]
+  },
+  "model": {
+    "name": "披露前十归一化 × 披露股票仓位",
+    "formula": "Σ(持仓占净值×个股涨幅) ÷ 前十合计权重 × 股票仓位",
+    "nav_formula": "仅当T-1正式净值存在时：T日预估净值=T-1正式净值×(1+T日模型涨幅)",
+    "note": "不连续叠加预测；下一交易日以新公布的正式净值重新起算。"
+  },
+  "intraday": {
+    "trade_date": "2026-08-27",
+    "point_count": 242,
+    "points": [
+      {
+        "time": "09:30",
+        "estimate_pct": 0.21310895578000283
+      },
+      {
+        "time": "09:31",
+        "estimate_pct": 0.1486989931814351
+      },
+      {
+        "time": "09:32",
+        "estimate_pct": 0.2560792642506295
+      },
+      {
+        "time": "09:33",
+        "estimate_pct": -0.13267125557555606
+      },
+      {
+        "time": "09:34",
+        "estimate_pct": 0.014612043286283212
+      },
+      {
+        "time": "09:35",
+        "estimate_pct": -0.35908547826716586
+      },
+      {
+        "time": "09:36",
+        "estimate_pct": -0.5022283742843213
+      },
+      {
+        "time": "09:37",
+        "estimate_pct": -0.4736284275881916
+      },
+      {
+        "time": "09:38",
+        "estimate_pct": -0.6342276422063218
+      },
+      {
+        "time": "09:39",
+        "estimate_pct": -0.9282664423652
+      },
+      {
+        "time": "09:40",
+        "estimate_pct": -0.6049048574563081
+      },
+      {
+        "time": "09:41",
+        "estimate_pct": -0.9178581989551875
+      },
+      {
+        "time": "09:42",
+        "estimate_pct": -0.9907823978583918
+      },
+      {
+        "time": "09:43",
+        "estimate_pct": -0.9359807739270655
+      },
+      {
+        "time": "09:44",
+        "estimate_pct": -0.6742322230681765
+      },
+      {
+        "time": "09:45",
+        "estimate_pct": -0.08309381549841108
+      },
+      {
+        "time": "09:46",
+        "estimate_pct": 0.19752270898373198
+      },
+      {
+        "time": "09:47",
+        "estimate_pct": 0.0062849291189298745
+      },
+      {
+        "time": "09:48",
+        "estimate_pct": 0.28066758074569903
+      },
+      {
+        "time": "09:49",
+        "estimate_pct": 0.2593086330469268
+      },
+      {
+        "time": "09:50",
+        "estimate_pct": 0.601836079389534
+      },
+      {
+        "time": "09:51",
+        "estimate_pct": 0.5527812101706354
+      },
+      {
+        "time": "09:52",
+        "estimate_pct": 0.8637879701788277
+      },
+      {
+        "time": "09:53",
+        "estimate_pct": 1.058375128068774
+      },
+      {
+        "time": "09:54",
+        "estimate_pct": 0.7996423173266217
+      },
+      {
+        "time": "09:55",
+        "estimate_pct": 0.7621134090007385
+      },
+      {
+        "time": "09:56",
+        "estimate_pct": 0.8571762100808621
+      },
+      {
+        "time": "09:57",
+        "estimate_pct": 0.8965891549845634
+      },
+      {
+        "time": "09:58",
+        "estimate_pct": 0.7334208716664826
+      },
+      {
+        "time": "09:59",
+        "estimate_pct": 0.5618886284850891
+      },
+      {
+        "time": "10:00",
+        "estimate_pct": 0.35156282416392126
+      },
+      {
+        "time": "10:01",
+        "estimate_pct": 0.5366874998857155
+      },
+      {
+        "time": "10:02",
+        "estimate_pct": 0.7463552446360708
+      },
+      {
+        "time": "10:03",
+        "estimate_pct": 0.9679017301048165
+      },
+      {
+        "time": "10:04",
+        "estimate_pct": 0.5595966411034766
+      },
+      {
+        "time": "10:05",
+        "estimate_pct": 0.5589830871187773
+      },
+      {
+        "time": "10:06",
+        "estimate_pct": 0.8013650216254468
+      },
+      {
+        "time": "10:07",
+        "estimate_pct": 0.5133483633846612
+      },
+      {
+        "time": "10:08",
+        "estimate_pct": 0.4554466136120399
+      },
+      {
+        "time": "10:09",
+        "estimate_pct": 0.5771419903883537
+      },
+      {
+        "time": "10:10",
+        "estimate_pct": 0.7686655161150895
+      },
+      {
+        "time": "10:11",
+        "estimate_pct": 0.8508053359880463
+      },
+      {
+        "time": "10:12",
+        "estimate_pct": 1.0009307035244712
+      },
+      {
+        "time": "10:13",
+        "estimate_pct": 1.0698440399537867
+      },
+      {
+        "time": "10:14",
+        "estimate_pct": 1.183243322732167
+      },
+      {
+        "time": "10:15",
+        "estimate_pct": 1.1763706024307736
+      },
+      {
+        "time": "10:16",
+        "estimate_pct": 1.2734628398710035
+      },
+      {
+        "time": "10:17",
+        "estimate_pct": 1.2616886799553915
+      },
+      {
+        "time": "10:18",
+        "estimate_pct": 1.1246101245554352
+      },
+      {
+        "time": "10:19",
+        "estimate_pct": 0.9442703292712501
+      },
+      {
+        "time": "10:20",
+        "estimate_pct": 0.9484437847484193
+      },
+      {
+        "time": "10:21",
+        "estimate_pct": 1.047366323064967
+      },
+      {
+        "time": "10:22",
+        "estimate_pct": 0.720001649083936
+      },
+      {
+        "time": "10:23",
+        "estimate_pct": 0.7606806222157241
+      },
+      {
+        "time": "10:24",
+        "estimate_pct": 0.7764772904344296
+      },
+      {
+        "time": "10:25",
+        "estimate_pct": 0.796549126114917
+      },
+      {
+        "time": "10:26",
+        "estimate_pct": 0.74535130604964
+      },
+      {
+        "time": "10:27",
+        "estimate_pct": 0.7646292022914898
+      },
+      {
+        "time": "10:28",
+        "estimate_pct": 0.8516706807494048
+      },
+      {
+        "time": "10:29",
+        "estimate_pct": 1.010359786212484
+      },
+      {
+        "time": "10:30",
+        "estimate_pct": 0.7366840332526978
+      },
+      {
+        "time": "10:31",
+        "estimate_pct": 0.570604793363305
+      },
+      {
+        "time": "10:32",
+        "estimate_pct": 0.7285774139604949
+      },
+      {
+        "time": "10:33",
+        "estimate_pct": 0.7844490579429418
+      },
+      {
+        "time": "10:34",
+        "estimate_pct": 0.9067087697763495
+      },
+      {
+        "time": "10:35",
+        "estimate_pct": 1.153871078449807
+      },
+      {
+        "time": "10:36",
+        "estimate_pct": 1.1985132457533254
+      },
+      {
+        "time": "10:37",
+        "estimate_pct": 1.213353481401097
+      },
+      {
+        "time": "10:38",
+        "estimate_pct": 1.1213706535765522
+      },
+      {
+        "time": "10:39",
+        "estimate_pct": 1.1490025094729213
+      },
+      {
+        "time": "10:40",
+        "estimate_pct": 1.3312877753892005
+      },
+      {
+        "time": "10:41",
+        "estimate_pct": 1.2694563170751134
+      },
+      {
+        "time": "10:42",
+        "estimate_pct": 1.3090996491375084
+      },
+      {
+        "time": "10:43",
+        "estimate_pct": 1.113901409661891
+      },
+      {
+        "time": "10:44",
+        "estimate_pct": 1.3976416827237375
+      },
+      {
+        "time": "10:45",
+        "estimate_pct": 1.6331820150506957
+      },
+      {
+        "time": "10:46",
+        "estimate_pct": 1.74627493093936
+      },
+      {
+        "time": "10:47",
+        "estimate_pct": 1.7553523520764653
+      },
+      {
+        "time": "10:48",
+        "estimate_pct": 1.614771757709592
+      },
+      {
+        "time": "10:49",
+        "estimate_pct": 1.7907911240290466
+      },
+      {
+        "time": "10:50",
+        "estimate_pct": 2.0467247159677906
+      },
+      {
+        "time": "10:51",
+        "estimate_pct": 2.2573867930287004
+      },
+      {
+        "time": "10:52",
+        "estimate_pct": 2.3996918208306726
+      },
+      {
+        "time": "10:53",
+        "estimate_pct": 2.1520847369862346
+      },
+      {
+        "time": "10:54",
+        "estimate_pct": 2.221848508062612
+      },
+      {
+        "time": "10:55",
+        "estimate_pct": 2.208613441055615
+      },
+      {
+        "time": "10:56",
+        "estimate_pct": 2.282996584068233
+      },
+      {
+        "time": "10:57",
+        "estimate_pct": 2.216156944072705
+      },
+      {
+        "time": "10:58",
+        "estimate_pct": 1.9528392741852247
+      },
+      {
+        "time": "10:59",
+        "estimate_pct": 1.9201955703964757
+      },
+      {
+        "time": "11:00",
+        "estimate_pct": 1.883610323192375
+      },
+      {
+        "time": "11:01",
+        "estimate_pct": 1.8523198352316477
+      },
+      {
+        "time": "11:02",
+        "estimate_pct": 1.911169190625842
+      },
+      {
+        "time": "11:03",
+        "estimate_pct": 2.022139547357906
+      },
+      {
+        "time": "11:04",
+        "estimate_pct": 1.8747694081328072
+      },
+      {
+        "time": "11:05",
+        "estimate_pct": 1.9124698943917247
+      },
+      {
+        "time": "11:06",
+        "estimate_pct": 2.079791363141303
+      },
+      {
+        "time": "11:07",
+        "estimate_pct": 2.017273022779962
+      },
+      {
+        "time": "11:08",
+        "estimate_pct": 2.0245156655486887
+      },
+      {
+        "time": "11:09",
+        "estimate_pct": 1.824412030444911
+      },
+      {
+        "time": "11:10",
+        "estimate_pct": 1.8177538651693335
+      },
+      {
+        "time": "11:11",
+        "estimate_pct": 1.8083459305122165
+      },
+      {
+        "time": "11:12",
+        "estimate_pct": 1.6632431289959628
+      },
+      {
+        "time": "11:13",
+        "estimate_pct": 2.0227751946457864
+      },
+      {
+        "time": "11:14",
+        "estimate_pct": 2.144423284883275
+      },
+      {
+        "time": "11:15",
+        "estimate_pct": 2.350806525183113
+      },
+      {
+        "time": "11:16",
+        "estimate_pct": 2.255288465477776
+      },
+      {
+        "time": "11:17",
+        "estimate_pct": 2.3023445507496976
+      },
+      {
+        "time": "11:18",
+        "estimate_pct": 2.3318118879087724
+      },
+      {
+        "time": "11:19",
+        "estimate_pct": 2.549091084729186
+      },
+      {
+        "time": "11:20",
+        "estimate_pct": 2.543690631518782
+      },
+      {
+        "time": "11:21",
+        "estimate_pct": 2.563505842162311
+      },
+      {
+        "time": "11:22",
+        "estimate_pct": 2.5554626571272987
+      },
+      {
+        "time": "11:23",
+        "estimate_pct": 2.565110172746503
+      },
+      {
+        "time": "11:24",
+        "estimate_pct": 2.604721373291324
+      },
+      {
+        "time": "11:25",
+        "estimate_pct": 2.624285988083429
+      },
+      {
+        "time": "11:26",
+        "estimate_pct": 2.5283694805521484
+      },
+      {
+        "time": "11:27",
+        "estimate_pct": 2.7743885129102828
+      },
+      {
+        "time": "11:28",
+        "estimate_pct": 2.783457954581929
+      },
+      {
+        "time": "11:29",
+        "estimate_pct": 2.7386286268775093
+      },
+      {
+        "time": "11:30",
+        "estimate_pct": 2.7517680918707828
+      },
+      {
+        "time": "13:00",
+        "estimate_pct": 2.7517680918707828
+      },
+      {
+        "time": "13:01",
+        "estimate_pct": 2.145548324536213
+      },
+      {
+        "time": "13:02",
+        "estimate_pct": 2.0819027310294507
+      },
+      {
+        "time": "13:03",
+        "estimate_pct": 2.2947436802704058
+      },
+      {
+        "time": "13:04",
+        "estimate_pct": 2.074564885748096
+      },
+      {
+        "time": "13:05",
+        "estimate_pct": 1.9292939649661196
+      },
+      {
+        "time": "13:06",
+        "estimate_pct": 1.9715477358790727
+      },
+      {
+        "time": "13:07",
+        "estimate_pct": 2.1698207125668647
+      },
+      {
+        "time": "13:08",
+        "estimate_pct": 1.969354607406244
+      },
+      {
+        "time": "13:09",
+        "estimate_pct": 2.03978048537129
+      },
+      {
+        "time": "13:10",
+        "estimate_pct": 1.9442154011882389
+      },
+      {
+        "time": "13:11",
+        "estimate_pct": 1.9902565846291125
+      },
+      {
+        "time": "13:12",
+        "estimate_pct": 1.6764400246076299
+      },
+      {
+        "time": "13:13",
+        "estimate_pct": 1.699469599509237
+      },
+      {
+        "time": "13:14",
+        "estimate_pct": 1.847681406619422
+      },
+      {
+        "time": "13:15",
+        "estimate_pct": 1.9222346445858751
+      },
+      {
+        "time": "13:16",
+        "estimate_pct": 2.025056880303296
+      },
+      {
+        "time": "13:17",
+        "estimate_pct": 1.7175620912985012
+      },
+      {
+        "time": "13:18",
+        "estimate_pct": 1.5843616273933876
+      },
+      {
+        "time": "13:19",
+        "estimate_pct": 1.5291223840454946
+      },
+      {
+        "time": "13:20",
+        "estimate_pct": 1.4150039855515555
+      },
+      {
+        "time": "13:21",
+        "estimate_pct": 1.4581171960803556
+      },
+      {
+        "time": "13:22",
+        "estimate_pct": 1.5539662845358788
+      },
+      {
+        "time": "13:23",
+        "estimate_pct": 1.425079516842259
+      },
+      {
+        "time": "13:24",
+        "estimate_pct": 1.5206305196868344
+      },
+      {
+        "time": "13:25",
+        "estimate_pct": 1.7395191913989203
+      },
+      {
+        "time": "13:26",
+        "estimate_pct": 1.8019261780989266
+      },
+      {
+        "time": "13:27",
+        "estimate_pct": 1.8064927734884013
+      },
+      {
+        "time": "13:28",
+        "estimate_pct": 1.5440516826948836
+      },
+      {
+        "time": "13:29",
+        "estimate_pct": 1.3576408477760162
+      },
+      {
+        "time": "13:30",
+        "estimate_pct": 1.5165807971961631
+      },
+      {
+        "time": "13:31",
+        "estimate_pct": 1.4510800606749008
+      },
+      {
+        "time": "13:32",
+        "estimate_pct": 1.3945596372360562
+      },
+      {
+        "time": "13:33",
+        "estimate_pct": 1.3155843906420293
+      },
+      {
+        "time": "13:34",
+        "estimate_pct": 1.3475785003711833
+      },
+      {
+        "time": "13:35",
+        "estimate_pct": 1.4771678372460788
+      },
+      {
+        "time": "13:36",
+        "estimate_pct": 1.3312380408727875
+      },
+      {
+        "time": "13:37",
+        "estimate_pct": 1.484278742046867
+      },
+      {
+        "time": "13:38",
+        "estimate_pct": 1.4958534463509319
+      },
+      {
+        "time": "13:39",
+        "estimate_pct": 1.4194853656644586
+      },
+      {
+        "time": "13:40",
+        "estimate_pct": 1.2907505133131802
+      },
+      {
+        "time": "13:41",
+        "estimate_pct": 1.3421222459395075
+      },
+      {
+        "time": "13:42",
+        "estimate_pct": 1.3504147394924593
+      },
+      {
+        "time": "13:43",
+        "estimate_pct": 1.4567327124575362
+      },
+      {
+        "time": "13:44",
+        "estimate_pct": 1.4246306210714126
+      },
+      {
+        "time": "13:45",
+        "estimate_pct": 1.5405558233348327
+      },
+      {
+        "time": "13:46",
+        "estimate_pct": 1.7050718012143866
+      },
+      {
+        "time": "13:47",
+        "estimate_pct": 1.7931722844529343
+      },
+      {
+        "time": "13:48",
+        "estimate_pct": 1.722781425173646
+      },
+      {
+        "time": "13:49",
+        "estimate_pct": 1.89402728270328
+      },
+      {
+        "time": "13:50",
+        "estimate_pct": 1.9228677210116718
+      },
+      {
+        "time": "13:51",
+        "estimate_pct": 1.8187980425298216
+      },
+      {
+        "time": "13:52",
+        "estimate_pct": 1.7380882375081108
+      },
+      {
+        "time": "13:53",
+        "estimate_pct": 1.6165928638022344
+      },
+      {
+        "time": "13:54",
+        "estimate_pct": 1.5694582348957726
+      },
+      {
+        "time": "13:55",
+        "estimate_pct": 1.5472929070695796
+      },
+      {
+        "time": "13:56",
+        "estimate_pct": 1.5295399554810405
+      },
+      {
+        "time": "13:57",
+        "estimate_pct": 1.4536771312198722
+      },
+      {
+        "time": "13:58",
+        "estimate_pct": 1.467700776015396
+      },
+      {
+        "time": "13:59",
+        "estimate_pct": 1.5953093911902316
+      },
+      {
+        "time": "14:00",
+        "estimate_pct": 1.596166251379583
+      },
+      {
+        "time": "14:01",
+        "estimate_pct": 1.6288489606284056
+      },
+      {
+        "time": "14:02",
+        "estimate_pct": 1.557945176499187
+      },
+      {
+        "time": "14:03",
+        "estimate_pct": 1.635606414994292
+      },
+      {
+        "time": "14:04",
+        "estimate_pct": 1.6899873601779989
+      },
+      {
+        "time": "14:05",
+        "estimate_pct": 1.7107470387045536
+      },
+      {
+        "time": "14:06",
+        "estimate_pct": 1.7097778071464902
+      },
+      {
+        "time": "14:07",
+        "estimate_pct": 1.805252720540367
+      },
+      {
+        "time": "14:08",
+        "estimate_pct": 1.7908202010235574
+      },
+      {
+        "time": "14:09",
+        "estimate_pct": 1.7441603357053261
+      },
+      {
+        "time": "14:10",
+        "estimate_pct": 1.64858495793978
+      },
+      {
+        "time": "14:11",
+        "estimate_pct": 1.6390216831260682
+      },
+      {
+        "time": "14:12",
+        "estimate_pct": 1.613146362230512
+      },
+      {
+        "time": "14:13",
+        "estimate_pct": 1.606358955534094
+      },
+      {
+        "time": "14:14",
+        "estimate_pct": 1.45384629051817
+      },
+      {
+        "time": "14:15",
+        "estimate_pct": 1.6731295157131751
+      },
+      {
+        "time": "14:16",
+        "estimate_pct": 1.7700618849995993
+      },
+      {
+        "time": "14:17",
+        "estimate_pct": 1.8252993553595656
+      },
+      {
+        "time": "14:18",
+        "estimate_pct": 1.7934134326520141
+      },
+      {
+        "time": "14:19",
+        "estimate_pct": 1.9021805268746261
+      },
+      {
+        "time": "14:20",
+        "estimate_pct": 1.9358449620441205
+      },
+      {
+        "time": "14:21",
+        "estimate_pct": 1.966576851335467
+      },
+      {
+        "time": "14:22",
+        "estimate_pct": 1.9867583169842546
+      },
+      {
+        "time": "14:23",
+        "estimate_pct": 1.8348502379326161
+      },
+      {
+        "time": "14:24",
+        "estimate_pct": 1.9474797356281537
+      },
+      {
+        "time": "14:25",
+        "estimate_pct": 1.972316216227548
+      },
+      {
+        "time": "14:26",
+        "estimate_pct": 1.9757592649758926
+      },
+      {
+        "time": "14:27",
+        "estimate_pct": 2.1211909560636943
+      },
+      {
+        "time": "14:28",
+        "estimate_pct": 2.25060046753508
+      },
+      {
+        "time": "14:29",
+        "estimate_pct": 2.2425975121661423
+      },
+      {
+        "time": "14:30",
+        "estimate_pct": 2.3722913868189193
+      },
+      {
+        "time": "14:31",
+        "estimate_pct": 2.3817487567618145
+      },
+      {
+        "time": "14:32",
+        "estimate_pct": 2.35116452741054
+      },
+      {
+        "time": "14:33",
+        "estimate_pct": 2.2157553169534583
+      },
+      {
+        "time": "14:34",
+        "estimate_pct": 2.302789611321931
+      },
+      {
+        "time": "14:35",
+        "estimate_pct": 2.4606614571538112
+      },
+      {
+        "time": "14:36",
+        "estimate_pct": 2.535217794419092
+      },
+      {
+        "time": "14:37",
+        "estimate_pct": 2.534269628368783
+      },
+      {
+        "time": "14:38",
+        "estimate_pct": 2.5660077180320946
+      },
+      {
+        "time": "14:39",
+        "estimate_pct": 2.6476981891337075
+      },
+      {
+        "time": "14:40",
+        "estimate_pct": 2.6565067607748714
+      },
+      {
+        "time": "14:41",
+        "estimate_pct": 2.708841236845978
+      },
+      {
+        "time": "14:42",
+        "estimate_pct": 2.620873609135898
+      },
+      {
+        "time": "14:43",
+        "estimate_pct": 2.651356704568353
+      },
+      {
+        "time": "14:44",
+        "estimate_pct": 2.772675782155143
+      },
+      {
+        "time": "14:45",
+        "estimate_pct": 2.8612251977460836
+      },
+      {
+        "time": "14:46",
+        "estimate_pct": 2.846930923592116
+      },
+      {
+        "time": "14:47",
+        "estimate_pct": 2.912480981638745
+      },
+      {
+        "time": "14:48",
+        "estimate_pct": 2.92568744817346
+      },
+      {
+        "time": "14:49",
+        "estimate_pct": 2.909147998593845
+      },
+      {
+        "time": "14:50",
+        "estimate_pct": 2.829690749101074
+      },
+      {
+        "time": "14:51",
+        "estimate_pct": 2.7800325271743582
+      },
+      {
+        "time": "14:52",
+        "estimate_pct": 2.6387259693705194
+      },
+      {
+        "time": "14:53",
+        "estimate_pct": 2.6561731898989867
+      },
+      {
+        "time": "14:54",
+        "estimate_pct": 2.6971037579475596
+      },
+      {
+        "time": "14:55",
+        "estimate_pct": 2.6926231458045278
+      },
+      {
+        "time": "14:56",
+        "estimate_pct": 2.6762155397060012
+      },
+      {
+        "time": "14:57",
+        "estimate_pct": 2.7762024666014984
+      },
+      {
+        "time": "14:58",
+        "estimate_pct": 2.792914838498687
+      },
+      {
+        "time": "14:59",
+        "estimate_pct": 2.792914838498687
+      },
+      {
+        "time": "15:00",
+        "estimate_pct": 2.589040335019447
+      }
+    ],
+    "source": "腾讯个股分钟线（打开详情时按需重建）"
+  },
+  "comparison_30d": {
+    "points": [
+      {
+        "date": "2026-07-16",
+        "market_pct": 0.0,
+        "top10_pct": 0.0,
+        "formal_fund_pct": 0.0,
+        "formal_unit_nav": 3.2797,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-17",
+        "market_pct": -3.60396983673269,
+        "top10_pct": -7.4279393448465125,
+        "formal_fund_pct": -7.25371222977712,
+        "formal_unit_nav": 3.0418,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-20",
+        "market_pct": -2.1307117483925553,
+        "top10_pct": -12.298175087214114,
+        "formal_fund_pct": -10.665609659420072,
+        "formal_unit_nav": 2.9299,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-21",
+        "market_pct": 0.8683751806454421,
+        "top10_pct": 3.569336035088577,
+        "formal_fund_pct": 4.125377321096435,
+        "formal_unit_nav": 3.415,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-22",
+        "market_pct": 0.4003464987240468,
+        "top10_pct": 1.3265508948011373,
+        "formal_fund_pct": 2.1282434368997016,
+        "formal_unit_nav": 3.3495,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-23",
+        "market_pct": 0.6293591689138678,
+        "top10_pct": -3.5632690152564317,
+        "formal_fund_pct": -2.9301460499435827,
+        "formal_unit_nav": 3.1836,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-24",
+        "market_pct": -1.048009654288784,
+        "top10_pct": 0.10390689520047847,
+        "formal_fund_pct": -0.23477757111931563,
+        "formal_unit_nav": 3.272,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-27",
+        "market_pct": 0.08513482163190478,
+        "top10_pct": 3.6852869881929484,
+        "formal_fund_pct": 1.9239564594322633,
+        "formal_unit_nav": 3.3428,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-28",
+        "market_pct": -2.743682464142272,
+        "top10_pct": -3.2611030902981564,
+        "formal_fund_pct": -3.982071530932718,
+        "formal_unit_nav": 3.1491,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-29",
+        "market_pct": -2.089421359901067,
+        "top10_pct": -4.795182521835217,
+        "formal_fund_pct": -5.421227551300422,
+        "formal_unit_nav": 3.1019,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-30",
+        "market_pct": -3.1650998312202083,
+        "top10_pct": -11.929599832586435,
+        "formal_fund_pct": -12.02549013629296,
+        "formal_unit_nav": 2.8853,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-07-31",
+        "market_pct": -2.3461028471212675,
+        "top10_pct": -9.861094067696852,
+        "formal_fund_pct": -9.94298258987103,
+        "formal_unit_nav": 2.9536,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-03",
+        "market_pct": -3.304295264588375,
+        "top10_pct": -19.623551731966337,
+        "formal_fund_pct": -17.471110162514858,
+        "formal_unit_nav": 2.7067,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-04",
+        "market_pct": -2.075161277277726,
+        "top10_pct": -15.821182638327901,
+        "formal_fund_pct": -13.510382047138469,
+        "formal_unit_nav": 2.8366,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-05",
+        "market_pct": -0.8573076538333169,
+        "top10_pct": -7.807985217941904,
+        "formal_fund_pct": -6.5402323383236265,
+        "formal_unit_nav": 3.0652,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-06",
+        "market_pct": -1.0028881988238592,
+        "top10_pct": -6.457397200833337,
+        "formal_fund_pct": -5.9761563557642505,
+        "formal_unit_nav": 3.0837,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-07",
+        "market_pct": -0.08492198457784594,
+        "top10_pct": -3.1471880199248847,
+        "formal_fund_pct": -3.0155197121687904,
+        "formal_unit_nav": 3.1808,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-10",
+        "market_pct": 0.0764085024146155,
+        "top10_pct": 0.7333180706731834,
+        "formal_fund_pct": -0.32015123334451223,
+        "formal_unit_nav": 3.2692,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-11",
+        "market_pct": -0.7372675553323438,
+        "top10_pct": -2.309847304638568,
+        "formal_fund_pct": -2.997225355977684,
+        "formal_unit_nav": 3.1814,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-12",
+        "market_pct": -0.15984062761392748,
+        "top10_pct": 0.41844573639839844,
+        "formal_fund_pct": -0.3567399457267473,
+        "formal_unit_nav": 3.268,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-13",
+        "market_pct": -0.7338621624670694,
+        "top10_pct": -2.3138708014801335,
+        "formal_fund_pct": -2.1770283867426965,
+        "formal_unit_nav": 3.2083,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-14",
+        "market_pct": -0.692784611029662,
+        "top10_pct": -2.358640393239453,
+        "formal_fund_pct": -2.774644022319117,
+        "formal_unit_nav": 3.1887,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-17",
+        "market_pct": 0.9081757097583409,
+        "top10_pct": 3.587157298727117,
+        "formal_fund_pct": 2.6862213007287306,
+        "formal_unit_nav": 3.3678,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-18",
+        "market_pct": 0.5827478540703757,
+        "top10_pct": 5.94539316794116,
+        "formal_fund_pct": 3.951580937280852,
+        "formal_unit_nav": 3.4093,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-19",
+        "market_pct": -2.3354609944173266,
+        "top10_pct": -1.8057383241685598,
+        "formal_fund_pct": -3.5673994572674284,
+        "formal_unit_nav": 3.1627,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-20",
+        "market_pct": -2.2492619875150166,
+        "top10_pct": -0.28332273709856803,
+        "formal_fund_pct": -2.7593987254931895,
+        "formal_unit_nav": 3.1892,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-21",
+        "market_pct": -1.692693091096431,
+        "top10_pct": -1.0506123130570644,
+        "formal_fund_pct": -3.0612556026465843,
+        "formal_unit_nav": 3.1793,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-24",
+        "market_pct": -2.8796853416992896,
+        "top10_pct": -1.6834333766456822,
+        "formal_fund_pct": -4.323566179833516,
+        "formal_unit_nav": 3.1379,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-25",
+        "market_pct": -3.1159344717278437,
+        "top10_pct": -4.185139027877183,
+        "formal_fund_pct": -6.149952739579845,
+        "formal_unit_nav": 3.078,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-26",
+        "market_pct": -2.290978050114667,
+        "top10_pct": -1.2806877492561375,
+        "formal_fund_pct": -3.512516388694098,
+        "formal_unit_nav": 3.1645,
+        "estimated_fund_pct": null,
+        "estimated_unit_nav": null
+      },
+      {
+        "date": "2026-08-27",
+        "market_pct": null,
+        "top10_pct": null,
+        "formal_fund_pct": null,
+        "formal_unit_nav": null,
+        "estimated_fund_pct": -1.0147239097104133,
+        "estimated_unit_nav": 3.2464200999332276
+      }
+    ],
+    "formal_nav_through": "2026-08-26",
+    "method": "正式净值只画已公布值；当日预测只从T-1正式净值虚线延伸一次。"
+  },
+  "detail_build_seconds": 1.0195459998212755,
+  "quality": {
+    "warnings": [],
+    "quote_primary": "东方财富",
+    "quote_crosscheck": "腾讯行情",
+    "disclaimer": "所有盘中涨幅均由最近披露持仓估算，不是基金公司正式净值；观察池不是投资推荐。"
+  },
+  "sources": [
+    {
+      "name": "天天基金/东方财富基金档案",
+      "use": "正式净值、股票仓位、最新披露前十大持仓",
+      "url": "https://fund.eastmoney.com/"
+    },
+    {
+      "name": "东方财富行情",
+      "use": "去重后持仓的批量实时行情主源",
+      "url": "https://quote.eastmoney.com/"
+    },
+    {
+      "name": "腾讯行情",
+      "use": "实时行情交叉核验、按需分钟线与历史日线",
+      "url": "https://gu.qq.com/"
+    }
+  ],
+  "publication": {
+    "mode": "static_snapshot",
+    "exported_at": "2026-08-27T20:10:17+08:00",
+    "automatic_refresh": false,
+    "detail_count": 10
+  }
+}

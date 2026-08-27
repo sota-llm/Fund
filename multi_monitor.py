@@ -29,6 +29,7 @@ DATA_DIR = ROOT / "data"
 FUND_DATA_DIR = DATA_DIR / "funds"
 MULTI_CACHE_DIR = DATA_DIR / "cache_multi"
 OVERVIEW_PATH = DATA_DIR / "overview.json"
+STATIC_DATA_DIR = ROOT / "static-data"
 FUNDS_PATH = ROOT / "funds.json"
 THEMES = ("全部", "CPO", "半导体", "PCB", "MLCC")
 
@@ -612,6 +613,53 @@ class MultiFundEngine:
         return detail
 
 
+def export_static(
+    engine: MultiFundEngine, output_dir: Path = STATIC_DATA_DIR
+) -> dict[str, Any]:
+    """生成可由 GitHub Pages 直接读取的一致性静态快照。
+
+    所有详情先在内存中成功生成，再写入公开目录，避免网络中断时留下
+    “新总览 + 旧详情”的半套数据。
+    """
+    overview = engine.refresh_market()
+    exported_at = core.iso_now()
+    publication = {
+        "mode": "static_snapshot",
+        "exported_at": exported_at,
+        "automatic_refresh": False,
+        "detail_count": len(engine.funds),
+    }
+    details: dict[str, dict[str, Any]] = {}
+    for code in engine.funds:
+        detail = dict(engine.get_detail(code))
+        detail["publication"] = publication
+        details[code] = detail
+
+    published_overview = {
+        **overview,
+        "pipeline": {
+            **overview["pipeline"],
+            "detail_mode": "静态版已预生成全部基金的分钟线、30日走势和持仓详情",
+        },
+        "publication": publication,
+    }
+    core.atomic_json(output_dir / "overview.json", published_overview)
+    for code, detail in details.items():
+        core.atomic_json(output_dir / "funds" / f"{code}.json", detail)
+    manifest = {
+        "kind": "hard_tech_fund_static_manifest.v1",
+        "exported_at": exported_at,
+        "as_of": overview["as_of"],
+        "fund_codes": list(details),
+    }
+    core.atomic_json(output_dir / "manifest.json", manifest)
+    return {
+        "overview": published_overview,
+        "details": details,
+        "manifest": manifest,
+    }
+
+
 class AppHandler(SimpleHTTPRequestHandler):
     engine: MultiFundEngine
 
@@ -692,6 +740,15 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="十只硬科技基金共享行情监控")
     sub = parser.add_subparsers(dest="command", required=True)
     sub.add_parser("refresh", help="刷新一次总览")
+    export_parser = sub.add_parser(
+        "export-static", help="刷新并导出一份供 GitHub Pages 使用的完整静态快照"
+    )
+    export_parser.add_argument(
+        "--output",
+        type=Path,
+        default=STATIC_DATA_DIR,
+        help="静态 JSON 输出目录（默认 static-data）",
+    )
     serve_parser = sub.add_parser("serve", help="持续刷新并启动总览页")
     serve_parser.add_argument("--port", type=int)
     serve_parser.add_argument("--open", action="store_true")
@@ -707,6 +764,21 @@ def main() -> int:
                     "fund_count": overview["summary"]["fund_count"],
                     "average_estimate_pct": overview["summary"]["average_estimate_pct"],
                     "pipeline": overview["pipeline"],
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+        return 0
+    if args.command == "export-static":
+        result = export_static(engine, args.output)
+        print(
+            json.dumps(
+                {
+                    "exported_at": result["manifest"]["exported_at"],
+                    "as_of": result["manifest"]["as_of"],
+                    "fund_count": len(result["details"]),
+                    "output": str(args.output),
                 },
                 ensure_ascii=False,
                 indent=2,

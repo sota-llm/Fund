@@ -1,0 +1,1985 @@
+{
+  "kind": "hard_tech_fund_overview.v1",
+  "generated_at": "2026-08-27T20:10:17+08:00",
+  "as_of": "2026-08-27T15:00:00+08:00",
+  "market_status": "已收盘",
+  "selection_as_of": "2026-08-27",
+  "universe_note": "依据2026年二季报披露的前十大持仓筛选的硬科技观察池；用于监测，不构成基金推荐或排名。",
+  "summary": {
+    "fund_count": 10,
+    "up_count": 10,
+    "down_count": 0,
+    "flat_count": 0,
+    "average_estimate_pct": 4.062152833345673,
+    "theme_summary": [
+      {
+        "theme": "CPO",
+        "fund_count": 5,
+        "average_estimate_pct": 4.479977530455437
+      },
+      {
+        "theme": "半导体",
+        "fund_count": 5,
+        "average_estimate_pct": 3.40233180950083
+      },
+      {
+        "theme": "PCB",
+        "fund_count": 4,
+        "average_estimate_pct": 4.270865969142237
+      },
+      {
+        "theme": "MLCC",
+        "fund_count": 3,
+        "average_estimate_pct": 3.8939780602978535
+      }
+    ]
+  },
+  "pipeline": {
+    "refresh_seconds": 30,
+    "metadata_refresh_seconds": 21600,
+    "ui_refresh_seconds": 10,
+    "cycle_seconds": 0.14402220817282796,
+    "raw_holding_rows": 96,
+    "unique_stocks": 58,
+    "dedup_saved_rows": 38,
+    "quote_batch_requests": 2,
+    "detail_mode": "静态版已预生成全部基金的分钟线、30日走势和持仓详情",
+    "metadata_last_refreshed_at": "2026-08-27T20:10:17+08:00"
+  },
+  "model": {
+    "name": "披露前十归一化 × 披露股票仓位",
+    "formula": "Σ(持仓占净值×个股涨幅) ÷ 前十合计权重 × 股票仓位",
+    "nav_formula": "仅当T-1正式净值存在时：T日预估净值=T-1正式净值×(1+T日模型涨幅)",
+    "note": "不连续叠加预测；下一交易日以新公布的正式净值重新起算。"
+  },
+  "funds": [
+    {
+      "code": "025348",
+      "name": "华商优势行业混合C",
+      "themes": [
+        "CPO",
+        "MLCC",
+        "PCB"
+      ],
+      "focus": "光模块、被动元件与PCB混合",
+      "selection_source": "https://fund.eastmoney.com/025348.html",
+      "estimate_pct": 3.3588329570006357,
+      "estimated_nav": 2.5374593490943655,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 2.455,
+        "cumulative_nav": 3.145,
+        "return_pct": 0.16
+      },
+      "stock_allocation_pct": 90.1,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 47.21,
+      "top10_direct_contribution_pct_point": 1.7599390000000001,
+      "top10_normalized_pct": 3.7278945138741797,
+      "theme_disclosed_weights_pct": {
+        "CPO": 27.24,
+        "半导体": 0,
+        "PCB": 5.94,
+        "MLCC": 14.03
+      },
+      "quote_count": 10,
+      "holding_count": 10,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "300502",
+          "market": 0,
+          "name": "新易盛",
+          "weight_pct": 8.71,
+          "shares_10k": 285.76,
+          "market_value_10k": 173454.2,
+          "price": 409.1,
+          "return_pct": 2.59,
+          "quote_time": "2026-08-27T15:34:21+08:00",
+          "contribution_pct_point": 0.225589,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300308",
+          "market": 0,
+          "name": "中际旭创",
+          "weight_pct": 8.01,
+          "shares_10k": 125.54,
+          "market_value_10k": 159441.01,
+          "price": 866.12,
+          "return_pct": 1.79,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.143379,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300408",
+          "market": 0,
+          "name": "三环集团",
+          "weight_pct": 5.74,
+          "shares_10k": 684.85,
+          "market_value_10k": 114301.31,
+          "price": 112.48,
+          "return_pct": 3.49,
+          "quote_time": "2026-08-27T15:34:15+08:00",
+          "contribution_pct_point": 0.20032600000000003,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "688498",
+          "market": 1,
+          "name": "源杰科技",
+          "weight_pct": 4.48,
+          "shares_10k": 47.3,
+          "market_value_10k": 89201.2,
+          "price": 1630.99,
+          "return_pct": 5.91,
+          "quote_time": "2026-08-27T16:11:51+08:00",
+          "contribution_pct_point": 0.26476800000000006,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "000636",
+          "market": 0,
+          "name": "风华高科",
+          "weight_pct": 4.26,
+          "shares_10k": 1174.08,
+          "market_value_10k": 84815.39,
+          "price": 54.11,
+          "return_pct": 6.08,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.259008,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "605376",
+          "market": 1,
+          "name": "博迁新材",
+          "weight_pct": 4.03,
+          "shares_10k": 295.79,
+          "market_value_10k": 80246.61,
+          "price": 153.64,
+          "return_pct": 4.83,
+          "quote_time": "2026-08-27T16:11:36+08:00",
+          "contribution_pct_point": 0.194649,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "002463",
+          "market": 0,
+          "name": "沪电股份",
+          "weight_pct": 3.22,
+          "shares_10k": 418.95,
+          "market_value_10k": 64015.56,
+          "price": 122.02,
+          "return_pct": 2.35,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.07567000000000002,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "688048",
+          "market": 1,
+          "name": "长光华芯",
+          "weight_pct": 3.06,
+          "shares_10k": 121.21,
+          "market_value_10k": 60849.48,
+          "price": 304.81,
+          "return_pct": 5.48,
+          "quote_time": "2026-08-27T16:11:55+08:00",
+          "contribution_pct_point": 0.16768800000000003,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "600105",
+          "market": 1,
+          "name": "永鼎股份",
+          "weight_pct": 2.98,
+          "shares_10k": 878.86,
+          "market_value_10k": 59305.8,
+          "price": 41.0,
+          "return_pct": 4.75,
+          "quote_time": "2026-08-27T16:11:52+08:00",
+          "contribution_pct_point": 0.14154999999999998,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "002384",
+          "market": 0,
+          "name": "东山精密",
+          "weight_pct": 2.72,
+          "shares_10k": 206.08,
+          "market_value_10k": 54065.11,
+          "price": 200.6,
+          "return_pct": 3.21,
+          "quote_time": "2026-08-27T15:34:54+08:00",
+          "contribution_pct_point": 0.08731200000000001,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "008984",
+      "name": "财通科技创新混合C",
+      "themes": [
+        "CPO"
+      ],
+      "focus": "高集中度光模块与光器件",
+      "selection_source": "https://fund.eastmoney.com/a/202608053832924370.html",
+      "estimate_pct": 6.526405409383625,
+      "estimated_nav": 1.910444554611886,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 1.7934,
+        "cumulative_nav": 1.7934,
+        "return_pct": -1.78
+      },
+      "stock_allocation_pct": 94.18,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 76.09,
+      "top10_direct_contribution_pct_point": 5.27282,
+      "top10_normalized_pct": 6.9297148114075435,
+      "theme_disclosed_weights_pct": {
+        "CPO": 76.09,
+        "半导体": 0,
+        "PCB": 0,
+        "MLCC": 0
+      },
+      "quote_count": 9,
+      "holding_count": 9,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "300308",
+          "market": 0,
+          "name": "中际旭创",
+          "weight_pct": 9.53,
+          "shares_10k": 50.55,
+          "market_value_10k": 64198.5,
+          "price": 866.12,
+          "return_pct": 1.79,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.170587,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300502",
+          "market": 0,
+          "name": "新易盛",
+          "weight_pct": 9.5,
+          "shares_10k": 105.42,
+          "market_value_10k": 63989.94,
+          "price": 409.1,
+          "return_pct": 2.59,
+          "quote_time": "2026-08-27T15:34:21+08:00",
+          "contribution_pct_point": 0.24604999999999996,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300570",
+          "market": 0,
+          "name": "太辰光",
+          "weight_pct": 9.47,
+          "shares_10k": 258.5,
+          "market_value_10k": 63773.67,
+          "price": 209.38,
+          "return_pct": 6.11,
+          "quote_time": "2026-08-27T15:34:30+08:00",
+          "contribution_pct_point": 0.578617,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "688800",
+          "market": 1,
+          "name": "瑞可达",
+          "weight_pct": 8.24,
+          "shares_10k": 578.14,
+          "market_value_10k": 55484.27,
+          "price": 68.45,
+          "return_pct": 12.16,
+          "quote_time": "2026-08-27T16:11:35+08:00",
+          "contribution_pct_point": 1.001984,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300548",
+          "market": 0,
+          "name": "长芯博创",
+          "weight_pct": 8.23,
+          "shares_10k": 199.3,
+          "market_value_10k": 55404.87,
+          "price": 216.01,
+          "return_pct": 12.0,
+          "quote_time": "2026-08-27T15:34:24+08:00",
+          "contribution_pct_point": 0.9876,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "688807",
+          "market": 1,
+          "name": "优迅股份",
+          "weight_pct": 8.12,
+          "shares_10k": 135.86,
+          "market_value_10k": 54673.17,
+          "price": 354.39,
+          "return_pct": 11.4,
+          "quote_time": "2026-08-27T16:11:36+08:00",
+          "contribution_pct_point": 0.92568,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "688313",
+          "market": 1,
+          "name": "仕佳光子",
+          "weight_pct": 8.09,
+          "shares_10k": 295.22,
+          "market_value_10k": 54512.76,
+          "price": 159.14,
+          "return_pct": 6.44,
+          "quote_time": "2026-08-27T16:11:32+08:00",
+          "contribution_pct_point": 0.520996,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "688498",
+          "market": 1,
+          "name": "源杰科技",
+          "weight_pct": 7.66,
+          "shares_10k": 27.36,
+          "market_value_10k": 51597.75,
+          "price": 1630.99,
+          "return_pct": 5.91,
+          "quote_time": "2026-08-27T16:11:51+08:00",
+          "contribution_pct_point": 0.452706,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300394",
+          "market": 0,
+          "name": "天孚通信",
+          "weight_pct": 7.25,
+          "shares_10k": 161.31,
+          "market_value_10k": 48826.22,
+          "price": 267.16,
+          "return_pct": 5.36,
+          "quote_time": "2026-08-27T15:34:51+08:00",
+          "contribution_pct_point": 0.3886,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "026155",
+      "name": "红土创新新科技股票C",
+      "themes": [
+        "CPO",
+        "半导体"
+      ],
+      "focus": "光模块、光纤光缆与半导体",
+      "selection_source": "https://fund.eastmoney.com/a/202607103801730664.html",
+      "estimate_pct": 4.191548062,
+      "estimated_nav": 8.733543941652963,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 8.3822,
+        "cumulative_nav": 8.3822,
+        "return_pct": 0.66
+      },
+      "stock_allocation_pct": 93.21,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 45.0,
+      "top10_direct_contribution_pct_point": 2.023599,
+      "top10_normalized_pct": 4.496886666666667,
+      "theme_disclosed_weights_pct": {
+        "CPO": 26.71,
+        "半导体": 14.66,
+        "PCB": 3.63,
+        "MLCC": 0
+      },
+      "quote_count": 10,
+      "holding_count": 10,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "300502",
+          "market": 0,
+          "name": "新易盛",
+          "weight_pct": 8.19,
+          "shares_10k": 45.74,
+          "market_value_10k": 27766.61,
+          "price": 409.1,
+          "return_pct": 2.59,
+          "quote_time": "2026-08-27T15:34:21+08:00",
+          "contribution_pct_point": 0.21212099999999995,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300308",
+          "market": 0,
+          "name": "中际旭创",
+          "weight_pct": 6.66,
+          "shares_10k": 17.78,
+          "market_value_10k": 22580.6,
+          "price": 866.12,
+          "return_pct": 1.79,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.119214,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "688498",
+          "market": 1,
+          "name": "源杰科技",
+          "weight_pct": 4.07,
+          "shares_10k": 7.31,
+          "market_value_10k": 13792.7,
+          "price": 1630.99,
+          "return_pct": 5.91,
+          "quote_time": "2026-08-27T16:11:51+08:00",
+          "contribution_pct_point": 0.24053700000000003,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300223",
+          "market": 0,
+          "name": "北京君正",
+          "weight_pct": 3.98,
+          "shares_10k": 54.19,
+          "market_value_10k": 13487.79,
+          "price": 140.48,
+          "return_pct": 6.37,
+          "quote_time": "2026-08-27T15:34:06+08:00",
+          "contribution_pct_point": 0.253526,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "301611",
+          "market": 0,
+          "name": "珂玛科技",
+          "weight_pct": 3.95,
+          "shares_10k": 74.39,
+          "market_value_10k": 13395.91,
+          "price": 103.04,
+          "return_pct": 4.09,
+          "quote_time": "2026-08-27T15:34:54+08:00",
+          "contribution_pct_point": 0.161555,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "600105",
+          "market": 1,
+          "name": "永鼎股份",
+          "weight_pct": 3.94,
+          "shares_10k": 197.96,
+          "market_value_10k": 13358.37,
+          "price": 41.0,
+          "return_pct": 4.75,
+          "quote_time": "2026-08-27T16:11:52+08:00",
+          "contribution_pct_point": 0.18715,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "600487",
+          "market": 1,
+          "name": "亨通光电",
+          "weight_pct": 3.85,
+          "shares_10k": 119.37,
+          "market_value_10k": 13051.92,
+          "price": 71.3,
+          "return_pct": 9.98,
+          "quote_time": "2026-08-27T16:11:59+08:00",
+          "contribution_pct_point": 0.38423,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "002384",
+          "market": 0,
+          "name": "东山精密",
+          "weight_pct": 3.63,
+          "shares_10k": 46.86,
+          "market_value_10k": 12293.72,
+          "price": 200.6,
+          "return_pct": 3.21,
+          "quote_time": "2026-08-27T15:34:54+08:00",
+          "contribution_pct_point": 0.116523,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "300604",
+          "market": 0,
+          "name": "长川科技",
+          "weight_pct": 3.41,
+          "shares_10k": 33.88,
+          "market_value_10k": 11567.31,
+          "price": 284.8,
+          "return_pct": 3.11,
+          "quote_time": "2026-08-27T15:34:27+08:00",
+          "contribution_pct_point": 0.106051,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688521",
+          "market": 1,
+          "name": "芯原股份",
+          "weight_pct": 3.32,
+          "shares_10k": 30.36,
+          "market_value_10k": 11267.4,
+          "price": 193.7,
+          "return_pct": 7.31,
+          "quote_time": "2026-08-27T16:11:44+08:00",
+          "contribution_pct_point": 0.242692,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "027939",
+      "name": "财通科创主题灵活配置混合(LOF)C",
+      "themes": [
+        "PCB"
+      ],
+      "focus": "PCB整板、覆铜板与连接器",
+      "selection_source": "https://fund.eastmoney.com/a/202608053832924370.html",
+      "estimate_pct": 5.4015296956753875,
+      "estimated_nav": 0.8619737098512332,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 0.8178,
+        "cumulative_nav": 0.8178,
+        "return_pct": -1.79
+      },
+      "stock_allocation_pct": 94.4,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 74.92,
+      "top10_direct_contribution_pct_point": 4.286892,
+      "top10_normalized_pct": 5.721959423384944,
+      "theme_disclosed_weights_pct": {
+        "CPO": 8.1,
+        "半导体": 0,
+        "PCB": 58.83,
+        "MLCC": 0
+      },
+      "quote_count": 10,
+      "holding_count": 10,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "002463",
+          "market": 0,
+          "name": "沪电股份",
+          "weight_pct": 8.58,
+          "shares_10k": 29.41,
+          "market_value_10k": 4493.85,
+          "price": 122.02,
+          "return_pct": 2.35,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.20163,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "002916",
+          "market": 0,
+          "name": "深南电路",
+          "weight_pct": 8.45,
+          "shares_10k": 9.66,
+          "market_value_10k": 4423.31,
+          "price": 365.1,
+          "return_pct": 4.9,
+          "quote_time": "2026-08-27T15:34:18+08:00",
+          "contribution_pct_point": 0.41405000000000003,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "688183",
+          "market": 1,
+          "name": "生益电子",
+          "weight_pct": 8.23,
+          "shares_10k": 32.56,
+          "market_value_10k": 4311.47,
+          "price": 121.69,
+          "return_pct": 14.32,
+          "quote_time": "2026-08-27T16:11:51+08:00",
+          "contribution_pct_point": 1.1785360000000003,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "002384",
+          "market": 0,
+          "name": "东山精密",
+          "weight_pct": 8.12,
+          "shares_10k": 16.21,
+          "market_value_10k": 4252.69,
+          "price": 200.6,
+          "return_pct": 3.21,
+          "quote_time": "2026-08-27T15:34:54+08:00",
+          "contribution_pct_point": 0.260652,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "688800",
+          "market": 1,
+          "name": "瑞可达",
+          "weight_pct": 8.1,
+          "shares_10k": 44.18,
+          "market_value_10k": 4239.89,
+          "price": 68.45,
+          "return_pct": 12.16,
+          "quote_time": "2026-08-27T16:11:35+08:00",
+          "contribution_pct_point": 0.98496,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300476",
+          "market": 0,
+          "name": "胜宏科技",
+          "weight_pct": 8.09,
+          "shares_10k": 12.23,
+          "market_value_10k": 4237.01,
+          "price": 263.05,
+          "return_pct": 5.46,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.441714,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "002475",
+          "market": 0,
+          "name": "立讯精密",
+          "weight_pct": 7.99,
+          "shares_10k": 59.42,
+          "market_value_10k": 4183.17,
+          "price": 57.18,
+          "return_pct": 0.12,
+          "quote_time": "2026-08-27T15:34:06+08:00",
+          "contribution_pct_point": 0.009588,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": []
+        },
+        {
+          "code": "002938",
+          "market": 0,
+          "name": "鹏鼎控股",
+          "weight_pct": 6.1,
+          "shares_10k": 30.32,
+          "market_value_10k": 3195.12,
+          "price": 89.2,
+          "return_pct": 2.18,
+          "quote_time": "2026-08-27T15:34:21+08:00",
+          "contribution_pct_point": 0.13298,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "603228",
+          "market": 1,
+          "name": "景旺电子",
+          "weight_pct": 5.88,
+          "shares_10k": 42.51,
+          "market_value_10k": 3078.15,
+          "price": 96.74,
+          "return_pct": 7.31,
+          "quote_time": "2026-08-27T16:11:46+08:00",
+          "contribution_pct_point": 0.429828,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "603920",
+          "market": 1,
+          "name": "世运电路",
+          "weight_pct": 5.38,
+          "shares_10k": 58.58,
+          "market_value_10k": 2814.18,
+          "price": 38.83,
+          "return_pct": 4.33,
+          "quote_time": "2026-08-27T16:11:34+08:00",
+          "contribution_pct_point": 0.232954,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "021528",
+      "name": "财通成长优选混合C",
+      "themes": [
+        "MLCC",
+        "PCB",
+        "CPO"
+      ],
+      "focus": "MLCC、PCB上游材料与光芯片",
+      "selection_source": "https://www.guandian.cn/article/20260721/575035.html",
+      "estimate_pct": 4.178165008297608,
+      "estimated_nav": 4.257761603889123,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 4.087,
+        "cumulative_nav": 4.087,
+        "return_pct": -0.78
+      },
+      "stock_allocation_pct": 84.25,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 72.31,
+      "top10_direct_contribution_pct_point": 3.586031,
+      "top10_normalized_pct": 4.95924630064998,
+      "theme_disclosed_weights_pct": {
+        "CPO": 18.1,
+        "半导体": 0,
+        "PCB": 35.2,
+        "MLCC": 19.01
+      },
+      "quote_count": 10,
+      "holding_count": 10,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "300502",
+          "market": 0,
+          "name": "新易盛",
+          "weight_pct": 9.47,
+          "shares_10k": 325.2,
+          "market_value_10k": 197399.01,
+          "price": 409.1,
+          "return_pct": 2.59,
+          "quote_time": "2026-08-27T15:34:21+08:00",
+          "contribution_pct_point": 0.245273,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "688519",
+          "market": 1,
+          "name": "南亚新材",
+          "weight_pct": 8.75,
+          "shares_10k": 480.25,
+          "market_value_10k": 182514.25,
+          "price": 294.2,
+          "return_pct": 3.61,
+          "quote_time": "2026-08-27T16:12:00+08:00",
+          "contribution_pct_point": 0.31587499999999996,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "688498",
+          "market": 1,
+          "name": "源杰科技",
+          "weight_pct": 8.63,
+          "shares_10k": 95.42,
+          "market_value_10k": 179966.27,
+          "price": 1630.99,
+          "return_pct": 5.91,
+          "quote_time": "2026-08-27T16:11:51+08:00",
+          "contribution_pct_point": 0.5100330000000001,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300408",
+          "market": 0,
+          "name": "三环集团",
+          "weight_pct": 7.93,
+          "shares_10k": 990.63,
+          "market_value_10k": 165335.58,
+          "price": 112.48,
+          "return_pct": 3.49,
+          "quote_time": "2026-08-27T15:34:15+08:00",
+          "contribution_pct_point": 0.276757,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "301511",
+          "market": 0,
+          "name": "德福科技",
+          "weight_pct": 7.92,
+          "shares_10k": 1147.79,
+          "market_value_10k": 165109.58,
+          "price": 86.89,
+          "return_pct": 8.13,
+          "quote_time": "2026-08-27T15:34:51+08:00",
+          "contribution_pct_point": 0.643896,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "301377",
+          "market": 0,
+          "name": "鼎泰高科",
+          "weight_pct": 7.82,
+          "shares_10k": 295.88,
+          "market_value_10k": 163000.29,
+          "price": 416.97,
+          "return_pct": 5.67,
+          "quote_time": "2026-08-27T15:34:12+08:00",
+          "contribution_pct_point": 0.44339399999999995,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "301200",
+          "market": 0,
+          "name": "大族数控",
+          "weight_pct": 7.1,
+          "shares_10k": 410.69,
+          "market_value_10k": 148115.31,
+          "price": 282.4,
+          "return_pct": 5.14,
+          "quote_time": "2026-08-27T15:34:09+08:00",
+          "contribution_pct_point": 0.36493999999999993,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        },
+        {
+          "code": "000636",
+          "market": 0,
+          "name": "风华高科",
+          "weight_pct": 6.8,
+          "shares_10k": 1962.09,
+          "market_value_10k": 141741.63,
+          "price": 54.11,
+          "return_pct": 6.08,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.41344000000000003,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "605376",
+          "market": 1,
+          "name": "博迁新材",
+          "weight_pct": 4.28,
+          "shares_10k": 329.25,
+          "market_value_10k": 89325.53,
+          "price": 153.64,
+          "return_pct": 4.83,
+          "quote_time": "2026-08-27T16:11:36+08:00",
+          "contribution_pct_point": 0.20672400000000002,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "603186",
+          "market": 1,
+          "name": "华正新材",
+          "weight_pct": 3.61,
+          "shares_10k": 334.02,
+          "market_value_10k": 75254.71,
+          "price": 183.39,
+          "return_pct": 4.59,
+          "quote_time": "2026-08-27T16:11:50+08:00",
+          "contribution_pct_point": 0.165699,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "011370",
+      "name": "华商均衡成长混合C",
+      "themes": [
+        "CPO",
+        "MLCC",
+        "PCB"
+      ],
+      "focus": "光模块向被动元件及上游材料延伸",
+      "selection_source": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniiqefh4870284.shtml",
+      "estimate_pct": 4.144936215595317,
+      "estimated_nav": 3.515828901702282,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 3.3759,
+        "cumulative_nav": 3.3759,
+        "return_pct": -0.01
+      },
+      "stock_allocation_pct": 90.16,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 45.269999999999996,
+      "top10_direct_contribution_pct_point": 2.081203,
+      "top10_normalized_pct": 4.597311685442898,
+      "theme_disclosed_weights_pct": {
+        "CPO": 24.56,
+        "半导体": 0,
+        "PCB": 2.68,
+        "MLCC": 15.15
+      },
+      "quote_count": 10,
+      "holding_count": 10,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "300308",
+          "market": 0,
+          "name": "中际旭创",
+          "weight_pct": 7.13,
+          "shares_10k": 139.55,
+          "market_value_10k": 177223.17,
+          "price": 866.12,
+          "return_pct": 1.79,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.12762700000000002,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "300502",
+          "market": 0,
+          "name": "新易盛",
+          "weight_pct": 6.64,
+          "shares_10k": 271.64,
+          "market_value_10k": 164882.51,
+          "price": 409.1,
+          "return_pct": 2.59,
+          "quote_time": "2026-08-27T15:34:21+08:00",
+          "contribution_pct_point": 0.171976,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "000636",
+          "market": 0,
+          "name": "风华高科",
+          "weight_pct": 5.95,
+          "shares_10k": 2046.99,
+          "market_value_10k": 147874.43,
+          "price": 54.11,
+          "return_pct": 6.08,
+          "quote_time": "2026-08-27T15:34:48+08:00",
+          "contribution_pct_point": 0.36176,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "300408",
+          "market": 0,
+          "name": "三环集团",
+          "weight_pct": 5.6,
+          "shares_10k": 833.27,
+          "market_value_10k": 139072.66,
+          "price": 112.48,
+          "return_pct": 3.49,
+          "quote_time": "2026-08-27T15:34:15+08:00",
+          "contribution_pct_point": 0.19544,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "688498",
+          "market": 1,
+          "name": "源杰科技",
+          "weight_pct": 3.84,
+          "shares_10k": 50.53,
+          "market_value_10k": 95297.51,
+          "price": 1630.99,
+          "return_pct": 5.91,
+          "quote_time": "2026-08-27T16:11:51+08:00",
+          "contribution_pct_point": 0.22694399999999998,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "605376",
+          "market": 1,
+          "name": "博迁新材",
+          "weight_pct": 3.6,
+          "shares_10k": 329.99,
+          "market_value_10k": 89525.64,
+          "price": 153.64,
+          "return_pct": 4.83,
+          "quote_time": "2026-08-27T16:11:36+08:00",
+          "contribution_pct_point": 0.17388,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "MLCC"
+          ]
+        },
+        {
+          "code": "600105",
+          "market": 1,
+          "name": "永鼎股份",
+          "weight_pct": 3.6,
+          "shares_10k": 1326.37,
+          "market_value_10k": 89503.25,
+          "price": 41.0,
+          "return_pct": 4.75,
+          "quote_time": "2026-08-27T16:11:52+08:00",
+          "contribution_pct_point": 0.171,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "688048",
+          "market": 1,
+          "name": "长光华芯",
+          "weight_pct": 3.35,
+          "shares_10k": 165.66,
+          "market_value_10k": 83162.73,
+          "price": 304.81,
+          "return_pct": 5.48,
+          "quote_time": "2026-08-27T16:11:55+08:00",
+          "contribution_pct_point": 0.18358,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "CPO"
+          ]
+        },
+        {
+          "code": "002428",
+          "market": 0,
+          "name": "云南锗业",
+          "weight_pct": 2.88,
+          "shares_10k": 594.86,
+          "market_value_10k": 71489.72,
+          "price": 101.36,
+          "return_pct": 8.44,
+          "quote_time": "2026-08-27T15:34:18+08:00",
+          "contribution_pct_point": 0.24307199999999998,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": []
+        },
+        {
+          "code": "600183",
+          "market": 1,
+          "name": "生益科技",
+          "weight_pct": 2.68,
+          "shares_10k": 383.51,
+          "market_value_10k": 66500.63,
+          "price": 140.97,
+          "return_pct": 8.43,
+          "quote_time": "2026-08-27T16:11:52+08:00",
+          "contribution_pct_point": 0.225924,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "PCB"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "013841",
+      "name": "银华集成电路混合C",
+      "themes": [
+        "半导体"
+      ],
+      "focus": "半导体设备、零部件与量测",
+      "selection_source": "https://fund.eastmoney.com/a/202607203813439327.html",
+      "estimate_pct": 2.5887217548815955,
+      "estimated_nav": 3.2464200999332276,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 3.1645,
+        "cumulative_nav": 3.1645,
+        "return_pct": 2.81
+      },
+      "stock_allocation_pct": 94.56,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 72.21,
+      "top10_direct_contribution_pct_point": 1.976857,
+      "top10_normalized_pct": 2.737649909984767,
+      "theme_disclosed_weights_pct": {
+        "CPO": 0,
+        "半导体": 72.21,
+        "PCB": 0,
+        "MLCC": 0
+      },
+      "quote_count": 8,
+      "holding_count": 8,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "688361",
+          "market": 1,
+          "name": "中科飞测",
+          "weight_pct": 10.55,
+          "shares_10k": 683.1,
+          "market_value_10k": 293731.24,
+          "price": 373.71,
+          "return_pct": 3.23,
+          "quote_time": "2026-08-27T16:11:37+08:00",
+          "contribution_pct_point": 0.34076500000000004,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688037",
+          "market": 1,
+          "name": "芯源微",
+          "weight_pct": 10.03,
+          "shares_10k": 636.09,
+          "market_value_10k": 279274.35,
+          "price": 375.0,
+          "return_pct": 0.58,
+          "quote_time": "2026-08-27T16:11:46+08:00",
+          "contribution_pct_point": 0.05817399999999999,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688120",
+          "market": 1,
+          "name": "华海清科",
+          "weight_pct": 9.79,
+          "shares_10k": 846.28,
+          "market_value_10k": 272654.59,
+          "price": 267.1,
+          "return_pct": 1.88,
+          "quote_time": "2026-08-27T16:11:38+08:00",
+          "contribution_pct_point": 0.18405199999999997,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "300567",
+          "market": 0,
+          "name": "精测电子",
+          "weight_pct": 9.56,
+          "shares_10k": 838.4,
+          "market_value_10k": 266274.73,
+          "price": 221.8,
+          "return_pct": 5.32,
+          "quote_time": "2026-08-27T15:34:57+08:00",
+          "contribution_pct_point": 0.508592,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "002371",
+          "market": 0,
+          "name": "北方华创",
+          "weight_pct": 9.41,
+          "shares_10k": 296.31,
+          "market_value_10k": 262102.65,
+          "price": 718.0,
+          "return_pct": 2.47,
+          "quote_time": "2026-08-27T15:34:39+08:00",
+          "contribution_pct_point": 0.23242700000000002,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688012",
+          "market": 1,
+          "name": "中微公司",
+          "weight_pct": 9.37,
+          "shares_10k": 556.83,
+          "market_value_10k": 260873.26,
+          "price": 376.01,
+          "return_pct": 2.16,
+          "quote_time": "2026-08-27T16:11:35+08:00",
+          "contribution_pct_point": 0.20239200000000002,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688072",
+          "market": 1,
+          "name": "拓荆科技",
+          "weight_pct": 7.45,
+          "shares_10k": 235.97,
+          "market_value_10k": 207543.93,
+          "price": 693.0,
+          "return_pct": 2.66,
+          "quote_time": "2026-08-27T16:11:43+08:00",
+          "contribution_pct_point": 0.19817,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688409",
+          "market": 1,
+          "name": "富创精密",
+          "weight_pct": 6.05,
+          "shares_10k": 550.28,
+          "market_value_10k": 168523.28,
+          "price": 215.0,
+          "return_pct": 4.17,
+          "quote_time": "2026-08-27T16:11:53+08:00",
+          "contribution_pct_point": 0.252285,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "026633",
+      "name": "平安半导体领航精选混合发起式C",
+      "themes": [
+        "半导体"
+      ],
+      "focus": "半导体设备、量测与零部件",
+      "selection_source": "https://fund.eastmoney.com/a/202607173811081119.html",
+      "estimate_pct": 2.722861131157154,
+      "estimated_nav": 1.5971350448672315,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 1.5548,
+        "cumulative_nav": 1.5548,
+        "return_pct": 1.71
+      },
+      "stock_allocation_pct": 85.97,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 51.16,
+      "top10_direct_contribution_pct_point": 1.620351,
+      "top10_normalized_pct": 3.167222439405786,
+      "theme_disclosed_weights_pct": {
+        "CPO": 0,
+        "半导体": 51.16,
+        "PCB": 0,
+        "MLCC": 0
+      },
+      "quote_count": 10,
+      "holding_count": 10,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "688361",
+          "market": 1,
+          "name": "中科飞测",
+          "weight_pct": 6.09,
+          "shares_10k": 11.12,
+          "market_value_10k": 4783.32,
+          "price": 373.71,
+          "return_pct": 3.23,
+          "quote_time": "2026-08-27T16:11:37+08:00",
+          "contribution_pct_point": 0.196707,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "603061",
+          "market": 1,
+          "name": "金海通",
+          "weight_pct": 5.81,
+          "shares_10k": 9.08,
+          "market_value_10k": 4562.57,
+          "price": 356.9,
+          "return_pct": 2.77,
+          "quote_time": "2026-08-27T16:11:48+08:00",
+          "contribution_pct_point": 0.160937,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688037",
+          "market": 1,
+          "name": "芯源微",
+          "weight_pct": 5.64,
+          "shares_10k": 10.09,
+          "market_value_10k": 4429.0,
+          "price": 375.0,
+          "return_pct": 0.58,
+          "quote_time": "2026-08-27T16:11:46+08:00",
+          "contribution_pct_point": 0.03271199999999999,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "300567",
+          "market": 0,
+          "name": "精测电子",
+          "weight_pct": 5.4,
+          "shares_10k": 13.34,
+          "market_value_10k": 4236.78,
+          "price": 221.8,
+          "return_pct": 5.32,
+          "quote_time": "2026-08-27T15:34:57+08:00",
+          "contribution_pct_point": 0.28728000000000004,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688012",
+          "market": 1,
+          "name": "中微公司",
+          "weight_pct": 5.39,
+          "shares_10k": 9.03,
+          "market_value_10k": 4230.88,
+          "price": 376.01,
+          "return_pct": 2.16,
+          "quote_time": "2026-08-27T16:11:35+08:00",
+          "contribution_pct_point": 0.116424,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688120",
+          "market": 1,
+          "name": "华海清科",
+          "weight_pct": 5.1,
+          "shares_10k": 12.44,
+          "market_value_10k": 4006.69,
+          "price": 267.1,
+          "return_pct": 1.88,
+          "quote_time": "2026-08-27T16:11:38+08:00",
+          "contribution_pct_point": 0.09587999999999999,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688200",
+          "market": 1,
+          "name": "华峰测控",
+          "weight_pct": 4.88,
+          "shares_10k": 7.3,
+          "market_value_10k": 3832.81,
+          "price": 400.0,
+          "return_pct": 4.87,
+          "quote_time": "2026-08-27T16:11:59+08:00",
+          "contribution_pct_point": 0.23765599999999998,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688409",
+          "market": 1,
+          "name": "富创精密",
+          "weight_pct": 4.44,
+          "shares_10k": 11.39,
+          "market_value_10k": 3486.69,
+          "price": 215.0,
+          "return_pct": 4.17,
+          "quote_time": "2026-08-27T16:11:53+08:00",
+          "contribution_pct_point": 0.185148,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "300604",
+          "market": 0,
+          "name": "长川科技",
+          "weight_pct": 4.37,
+          "shares_10k": 10.04,
+          "market_value_10k": 3427.86,
+          "price": 284.8,
+          "return_pct": 3.11,
+          "quote_time": "2026-08-27T15:34:27+08:00",
+          "contribution_pct_point": 0.135907,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688082",
+          "market": 1,
+          "name": "盛美上海",
+          "weight_pct": 4.04,
+          "shares_10k": 7.34,
+          "market_value_10k": 3169.84,
+          "price": 307.01,
+          "return_pct": 4.25,
+          "quote_time": "2026-08-27T16:11:47+08:00",
+          "contribution_pct_point": 0.17170000000000002,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "021627",
+      "name": "华富半导体产业混合发起式C",
+      "themes": [
+        "半导体"
+      ],
+      "focus": "芯片设计、制造与设备材料",
+      "selection_source": "https://fund.eastmoney.com/021627.html",
+      "estimate_pct": 3.2221737586029793,
+      "estimated_nav": 2.6010955565430365,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 2.5199,
+        "cumulative_nav": 2.5199,
+        "return_pct": 0.49
+      },
+      "stock_allocation_pct": 89.72,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 38.94,
+      "top10_direct_contribution_pct_point": 1.3984779999999999,
+      "top10_normalized_pct": 3.591366204417052,
+      "theme_disclosed_weights_pct": {
+        "CPO": 0,
+        "半导体": 38.94,
+        "PCB": 0,
+        "MLCC": 0
+      },
+      "quote_count": 10,
+      "holding_count": 10,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "603986",
+          "market": 1,
+          "name": "兆易创新",
+          "weight_pct": 6.3,
+          "shares_10k": 1.39,
+          "market_value_10k": 1132.85,
+          "price": 411.2,
+          "return_pct": 4.76,
+          "quote_time": "2026-08-27T16:11:50+08:00",
+          "contribution_pct_point": 0.29988,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "002371",
+          "market": 0,
+          "name": "北方华创",
+          "weight_pct": 4.28,
+          "shares_10k": 0.87,
+          "market_value_10k": 769.57,
+          "price": 718.0,
+          "return_pct": 2.47,
+          "quote_time": "2026-08-27T15:34:39+08:00",
+          "contribution_pct_point": 0.10571600000000002,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688037",
+          "market": 1,
+          "name": "芯源微",
+          "weight_pct": 4.23,
+          "shares_10k": 1.73,
+          "market_value_10k": 761.09,
+          "price": 375.0,
+          "return_pct": 0.58,
+          "quote_time": "2026-08-27T16:11:46+08:00",
+          "contribution_pct_point": 0.024534000000000004,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688403",
+          "market": 1,
+          "name": "汇成股份",
+          "weight_pct": 4.07,
+          "shares_10k": 18.43,
+          "market_value_10k": 731.87,
+          "price": 23.78,
+          "return_pct": 5.55,
+          "quote_time": "2026-08-27T16:11:59+08:00",
+          "contribution_pct_point": 0.225885,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688041",
+          "market": 1,
+          "name": "海光信息",
+          "weight_pct": 3.64,
+          "shares_10k": 1.77,
+          "market_value_10k": 654.43,
+          "price": 245.97,
+          "return_pct": 6.5,
+          "quote_time": "2026-08-27T16:11:56+08:00",
+          "contribution_pct_point": 0.2366,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "000725",
+          "market": 0,
+          "name": "京东方A",
+          "weight_pct": 3.63,
+          "shares_10k": 75.12,
+          "market_value_10k": 652.04,
+          "price": 5.94,
+          "return_pct": 3.85,
+          "quote_time": "2026-08-27T15:34:12+08:00",
+          "contribution_pct_point": 0.139755,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688012",
+          "market": 1,
+          "name": "中微公司",
+          "weight_pct": 3.56,
+          "shares_10k": 1.37,
+          "market_value_10k": 639.69,
+          "price": 376.01,
+          "return_pct": 2.16,
+          "quote_time": "2026-08-27T16:11:35+08:00",
+          "contribution_pct_point": 0.076896,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688347",
+          "market": 1,
+          "name": "华虹宏力",
+          "weight_pct": 3.44,
+          "shares_10k": 1.84,
+          "market_value_10k": 619.6,
+          "price": 252.72,
+          "return_pct": 3.57,
+          "quote_time": "2026-08-27T16:11:59+08:00",
+          "contribution_pct_point": 0.12280799999999999,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688172",
+          "market": 1,
+          "name": "燕东微",
+          "weight_pct": 2.95,
+          "shares_10k": 6.35,
+          "market_value_10k": 531.35,
+          "price": 55.18,
+          "return_pct": 3.08,
+          "quote_time": "2026-08-27T16:11:50+08:00",
+          "contribution_pct_point": 0.09086,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688072",
+          "market": 1,
+          "name": "拓荆科技",
+          "weight_pct": 2.84,
+          "shares_10k": 0.58,
+          "market_value_10k": 510.13,
+          "price": 693.0,
+          "return_pct": 2.66,
+          "quote_time": "2026-08-27T16:11:43+08:00",
+          "contribution_pct_point": 0.075544,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "020470",
+      "name": "长城半导体混合发起式C",
+      "themes": [
+        "半导体"
+      ],
+      "focus": "国产算力、晶圆制造与封测",
+      "selection_source": "https://fund.eastmoney.com/a/202607143805307942.html",
+      "estimate_pct": 4.286354340862422,
+      "estimated_nav": 3.656592442253659,
+      "previous_nav": {
+        "date": "2026-08-26",
+        "unit_nav": 3.5063,
+        "cumulative_nav": 3.5063,
+        "return_pct": 2.27
+      },
+      "stock_allocation_pct": 94.77,
+      "allocation_date": "2026-06-30",
+      "holding_report_date": "2026-06-30",
+      "holding_disclosure_age_days": 58,
+      "top10_weight_pct": 58.44,
+      "top10_direct_contribution_pct_point": 2.6431839999999998,
+      "top10_normalized_pct": 4.52290212183436,
+      "theme_disclosed_weights_pct": {
+        "CPO": 0,
+        "半导体": 58.44,
+        "PCB": 0,
+        "MLCC": 0
+      },
+      "quote_count": 9,
+      "holding_count": 9,
+      "max_crosscheck_difference_pct_point": 0.0,
+      "posture": "研究级估算",
+      "holdings": [
+        {
+          "code": "688702",
+          "market": 1,
+          "name": "盛科通信",
+          "weight_pct": 7.89,
+          "shares_10k": 40.8,
+          "market_value_10k": 15911.32,
+          "price": 380.4,
+          "return_pct": 3.04,
+          "quote_time": "2026-08-27T16:11:48+08:00",
+          "contribution_pct_point": 0.23985599999999999,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688548",
+          "market": 1,
+          "name": "广钢气体",
+          "weight_pct": 7.17,
+          "shares_10k": 277.55,
+          "market_value_10k": 14460.4,
+          "price": 36.07,
+          "return_pct": 3.62,
+          "quote_time": "2026-08-27T16:11:45+08:00",
+          "contribution_pct_point": 0.259554,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688041",
+          "market": 1,
+          "name": "海光信息",
+          "weight_pct": 7.02,
+          "shares_10k": 38.26,
+          "market_value_10k": 14167.97,
+          "price": 245.97,
+          "return_pct": 6.5,
+          "quote_time": "2026-08-27T16:11:56+08:00",
+          "contribution_pct_point": 0.45629999999999993,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688256",
+          "market": 1,
+          "name": "寒武纪",
+          "weight_pct": 6.81,
+          "shares_10k": 8.61,
+          "market_value_10k": 13740.08,
+          "price": 1048.0,
+          "return_pct": 2.75,
+          "quote_time": "2026-08-27T16:11:49+08:00",
+          "contribution_pct_point": 0.187275,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688521",
+          "market": 1,
+          "name": "芯原股份",
+          "weight_pct": 6.7,
+          "shares_10k": 36.42,
+          "market_value_10k": 13516.88,
+          "price": 193.7,
+          "return_pct": 7.31,
+          "quote_time": "2026-08-27T16:11:44+08:00",
+          "contribution_pct_point": 0.48977,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "300054",
+          "market": 0,
+          "name": "鼎龙股份",
+          "weight_pct": 6.35,
+          "shares_10k": 120.88,
+          "market_value_10k": 12809.65,
+          "price": 75.0,
+          "return_pct": 3.89,
+          "quote_time": "2026-08-27T15:34:18+08:00",
+          "contribution_pct_point": 0.24701499999999998,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "002156",
+          "market": 0,
+          "name": "通富微电",
+          "weight_pct": 5.65,
+          "shares_10k": 150.19,
+          "market_value_10k": 11394.92,
+          "price": 63.73,
+          "return_pct": 4.05,
+          "quote_time": "2026-08-27T15:34:57+08:00",
+          "contribution_pct_point": 0.228825,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688347",
+          "market": 1,
+          "name": "华虹宏力",
+          "weight_pct": 5.61,
+          "shares_10k": 33.67,
+          "market_value_10k": 11323.05,
+          "price": 252.72,
+          "return_pct": 3.57,
+          "quote_time": "2026-08-27T16:11:59+08:00",
+          "contribution_pct_point": 0.20027699999999998,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        },
+        {
+          "code": "688385",
+          "market": 1,
+          "name": "复旦微电",
+          "weight_pct": 5.24,
+          "shares_10k": 148.13,
+          "market_value_10k": 10560.47,
+          "price": 54.53,
+          "return_pct": 6.38,
+          "quote_time": "2026-08-27T16:11:48+08:00",
+          "contribution_pct_point": 0.33431200000000005,
+          "crosscheck_difference_pct_point": 0.0,
+          "theme_tags": [
+            "半导体"
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "warnings": [],
+    "quote_primary": "东方财富",
+    "quote_crosscheck": "腾讯行情",
+    "disclaimer": "所有盘中涨幅均由最近披露持仓估算，不是基金公司正式净值；观察池不是投资推荐。"
+  },
+  "sources": [
+    {
+      "name": "天天基金/东方财富基金档案",
+      "use": "正式净值、股票仓位、最新披露前十大持仓",
+      "url": "https://fund.eastmoney.com/"
+    },
+    {
+      "name": "东方财富行情",
+      "use": "去重后持仓的批量实时行情主源",
+      "url": "https://quote.eastmoney.com/"
+    },
+    {
+      "name": "腾讯行情",
+      "use": "实时行情交叉核验、按需分钟线与历史日线",
+      "url": "https://gu.qq.com/"
+    }
+  ],
+  "publication": {
+    "mode": "static_snapshot",
+    "exported_at": "2026-08-27T20:10:17+08:00",
+    "automatic_refresh": false,
+    "detail_count": 10
+  }
+}

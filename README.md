@@ -11,6 +11,8 @@ cd Fund
 
 浏览器会打开 <http://127.0.0.1:8765/dashboard.html>。首页先展示 10 只基金的统一口径总览；点击任一基金，才会生成该基金的完整分钟线、最近 30 个交易点和持仓明细。
 
+公开静态快照位于 <https://sota-llm.github.io/Fund/>。它由仓库中最近一次导出的 JSON 驱动，不会像本地服务一样在后台每 30 秒抓取；页头会明确显示快照生成时间。
+
 也可手动运行：
 
 ```bash
@@ -22,7 +24,12 @@ python3 multi_monitor.py serve --port 8765 --open
 
 # 保留的原单基金数据源检查
 python3 monitor.py doctor
+
+# 刷新行情并导出一份完整的 GitHub Pages 静态快照
+python3 multi_monitor.py export-static
 ```
+
+`export-static` 会生成 `static-data/overview.json`、10 份基金详情以及清单文件；这些静态文件需要提交并推送后，GitHub Pages 才会更新。
 
 ## 观察池
 
