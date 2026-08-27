@@ -1,6 +1,6 @@
 {
   "kind": "hard_tech_fund_detail.v1",
-  "generated_at": "2026-08-27T20:10:22+08:00",
+  "generated_at": "2026-08-27T20:18:29+08:00",
   "as_of": "2026-08-27T15:00:00+08:00",
   "market_status": "已收盘",
   "fund": {
@@ -1183,271 +1183,181 @@
   "comparison_30d": {
     "points": [
       {
-        "date": "2026-07-16",
+        "date": "2026-07-30",
         "market_pct": 0.0,
         "top10_pct": 0.0,
         "formal_fund_pct": 0.0,
-        "formal_unit_nav": 2.7633,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-17",
-        "market_pct": -3.60396983673269,
-        "top10_pct": -5.90462502109207,
-        "formal_fund_pct": -8.78297687547498,
-        "formal_unit_nav": 2.5206,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-20",
-        "market_pct": -2.1307117483925553,
-        "top10_pct": -8.92177767818202,
-        "formal_fund_pct": -13.031520283718745,
-        "formal_unit_nav": 2.4032,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-21",
-        "market_pct": 0.8683751806454421,
-        "top10_pct": 4.251869152130694,
-        "formal_fund_pct": -2.8914703434299693,
-        "formal_unit_nav": 2.6834,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-22",
-        "market_pct": 0.4003464987240468,
-        "top10_pct": 2.9456260392617617,
-        "formal_fund_pct": -4.671950204465681,
-        "formal_unit_nav": 2.6342,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-23",
-        "market_pct": 0.6293591689138678,
-        "top10_pct": -2.98823590419548,
-        "formal_fund_pct": -8.779358013968807,
-        "formal_unit_nav": 2.5207,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-24",
-        "market_pct": -1.048009654288784,
-        "top10_pct": -2.0319863440355967,
-        "formal_fund_pct": -8.290811710635849,
-        "formal_unit_nav": 2.5342,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-27",
-        "market_pct": 0.08513482163190478,
-        "top10_pct": -2.166760680475166,
-        "formal_fund_pct": -5.558571273477364,
-        "formal_unit_nav": 2.6097,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-28",
-        "market_pct": -2.743682464142272,
-        "top10_pct": -9.391807452338274,
-        "formal_fund_pct": -13.33188578873088,
-        "formal_unit_nav": 2.3949,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-29",
-        "market_pct": -2.089421359901067,
-        "top10_pct": -12.46708347522576,
-        "formal_fund_pct": -15.568342199544027,
-        "formal_unit_nav": 2.3331,
-        "estimated_fund_pct": null,
-        "estimated_unit_nav": null
-      },
-      {
-        "date": "2026-07-30",
-        "market_pct": -3.1650998312202083,
-        "top10_pct": -18.533612133854817,
-        "formal_fund_pct": -23.081098686353275,
         "formal_unit_nav": 2.1255,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-07-31",
-        "market_pct": -2.3461028471212675,
-        "top10_pct": -16.289127300810602,
-        "formal_fund_pct": -19.190822567220355,
+        "market_pct": 0.8457663328732323,
+        "top10_pct": 2.7551053776093015,
+        "formal_fund_pct": 5.057633498000458,
         "formal_unit_nav": 2.233,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-03",
-        "market_pct": -3.304295264588375,
-        "top10_pct": -23.13511146071233,
-        "formal_fund_pct": -23.63116563529114,
+        "market_pct": -0.1437451095891551,
+        "top10_pct": -5.648340926098372,
+        "formal_fund_pct": -0.7151258527405391,
         "formal_unit_nav": 2.1103,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-04",
-        "market_pct": -2.075161277277726,
-        "top10_pct": -18.636270392606193,
-        "formal_fund_pct": -18.217348822060586,
+        "market_pct": 1.1255637709573385,
+        "top10_pct": -0.12601302382529989,
+        "formal_fund_pct": 6.323218066337333,
         "formal_unit_nav": 2.2599,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-05",
-        "market_pct": -0.8573076538333169,
-        "top10_pct": -12.118841313098727,
-        "formal_fund_pct": -13.281221727644487,
+        "market_pct": 2.383223582989702,
+        "top10_pct": 7.874131882827551,
+        "formal_fund_pct": 12.740531639614193,
         "formal_unit_nav": 2.3963,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-06",
-        "market_pct": -1.0028881988238592,
-        "top10_pct": -10.644351814116792,
-        "formal_fund_pct": -11.294466760757071,
+        "market_pct": 2.2328846610340847,
+        "top10_pct": 9.684067903809135,
+        "formal_fund_pct": 15.323453305104673,
         "formal_unit_nav": 2.4512,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-07",
-        "market_pct": -0.08492198457784594,
-        "top10_pct": -7.2325582845646945,
-        "formal_fund_pct": -6.636992002316077,
+        "market_pct": 3.1808550855876527,
+        "top10_pct": 13.872044833825846,
+        "formal_fund_pct": 21.3784991766643,
         "formal_unit_nav": 2.5799,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-10",
-        "market_pct": 0.0764085024146155,
-        "top10_pct": -7.231533917524258,
-        "formal_fund_pct": -6.2352983751311815,
+        "market_pct": 3.347458744713938,
+        "top10_pct": 13.873302244479824,
+        "formal_fund_pct": 21.900729240178784,
         "formal_unit_nav": 2.591,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-11",
-        "market_pct": -0.7372675553323438,
-        "top10_pct": -8.816354902267133,
-        "formal_fund_pct": -8.182245865450732,
+        "market_pct": 2.507187255479426,
+        "top10_pct": 11.927934312680954,
+        "formal_fund_pct": 19.369560103505034,
         "formal_unit_nav": 2.5372,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-12",
-        "market_pct": -0.15984062761392748,
-        "top10_pct": -6.468862917048024,
-        "formal_fund_pct": -5.57304671950204,
+        "market_pct": 3.1034876871543604,
+        "top10_pct": 14.809480980831013,
+        "formal_fund_pct": 22.761703128675602,
         "formal_unit_nav": 2.6093,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-13",
-        "market_pct": -0.7338621624670694,
-        "top10_pct": -8.014429220012309,
-        "formal_fund_pct": -6.311294466760753,
+        "market_pct": 2.510703955408222,
+        "top10_pct": 12.912298175201098,
+        "formal_fund_pct": 21.801928957892258,
         "formal_unit_nav": 2.5889,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-14",
-        "market_pct": -0.692784611029662,
-        "top10_pct": -8.130822238398983,
-        "formal_fund_pct": -5.20754170737886,
+        "market_pct": 2.553124148299224,
+        "top10_pct": 12.769425732423944,
+        "formal_fund_pct": 23.23688543872029,
         "formal_unit_nav": 2.6194,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-17",
-        "market_pct": 0.9081757097583409,
-        "top10_pct": -3.640416023660553,
-        "formal_fund_pct": -0.17732421380234342,
+        "market_pct": 4.206412702320139,
+        "top10_pct": 18.281399851267267,
+        "formal_fund_pct": 29.776523171018574,
         "formal_unit_nav": 2.7584,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-18",
-        "market_pct": 0.5827478540703757,
-        "top10_pct": -2.7056483719083646,
-        "formal_fund_pct": 0.24608258241956005,
+        "market_pct": 3.8703480653754507,
+        "top10_pct": 19.4288272458488,
+        "formal_fund_pct": 30.326981886614888,
         "formal_unit_nav": 2.7701,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-19",
-        "market_pct": -2.3354609944173266,
-        "top10_pct": -10.516922236969982,
-        "formal_fund_pct": -8.22205334201861,
+        "market_pct": 0.856756020150673,
+        "top10_pct": 9.840487723669344,
+        "formal_fund_pct": 19.317807574688285,
         "formal_unit_nav": 2.5361,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-20",
-        "market_pct": -2.2492619875150166,
-        "top10_pct": -10.48396625684398,
-        "formal_fund_pct": -6.390909419896507,
+        "market_pct": 0.9457724870981066,
+        "top10_pct": 9.880941192872061,
+        "formal_fund_pct": 21.698423900258756,
         "formal_unit_nav": 2.5867,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-21",
-        "market_pct": -1.692693091096431,
-        "top10_pct": -10.201198363912578,
-        "formal_fund_pct": -5.6309485036007745,
+        "market_pct": 1.5205331317091897,
+        "top10_pct": 10.228038812317287,
+        "formal_fund_pct": 22.686426723123954,
         "formal_unit_nav": 2.6077,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-24",
-        "market_pct": -2.8796853416992896,
-        "top10_pct": -12.450505667437605,
-        "formal_fund_pct": -8.598414938660303,
+        "market_pct": 0.2947434127814397,
+        "top10_pct": 7.467013851666282,
+        "formal_fund_pct": 18.828510938602673,
         "formal_unit_nav": 2.5257,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-25",
-        "market_pct": -3.1159344717278437,
-        "top10_pct": -13.192614928590451,
-        "formal_fund_pct": -9.257047732783274,
+        "market_pct": 0.05077235522183976,
+        "top10_pct": 6.556074652579436,
+        "formal_fund_pct": 17.972241825452826,
         "formal_unit_nav": 2.5075,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
       },
       {
         "date": "2026-08-26",
-        "market_pct": -2.290978050114667,
-        "top10_pct": -11.617264626344614,
-        "formal_fund_pct": -8.80830890601818,
+        "market_pct": 0.9026929129704486,
+        "top10_pct": 8.489817320579206,
+        "formal_fund_pct": 18.55563396847799,
         "formal_unit_nav": 2.5199,
         "estimated_fund_pct": null,
         "estimated_unit_nav": null
@@ -1458,14 +1368,20 @@
         "top10_pct": null,
         "formal_fund_pct": null,
         "formal_unit_nav": null,
-        "estimated_fund_pct": -5.869954165561597,
+        "estimated_fund_pct": 22.375702495555693,
         "estimated_unit_nav": 2.6010955565430365
       }
     ],
     "formal_nav_through": "2026-08-26",
-    "method": "正式净值只画已公布值；当日预测只从T-1正式净值虚线延伸一次。"
+    "window": {
+      "type": "calendar_days",
+      "days": 30,
+      "start": "2026-07-29",
+      "end": "2026-08-27"
+    },
+    "method": "仅保留最近30个自然日内有交易数据的日期；正式净值只画已公布值；当日预测只从T-1正式净值虚线延伸一次。"
   },
-  "detail_build_seconds": 0.2933000000193715,
+  "detail_build_seconds": 0.3116992092691362,
   "quality": {
     "warnings": [],
     "quote_primary": "东方财富",
@@ -1491,7 +1407,7 @@
   ],
   "publication": {
     "mode": "static_snapshot",
-    "exported_at": "2026-08-27T20:10:17+08:00",
+    "exported_at": "2026-08-27T20:18:24+08:00",
     "automatic_refresh": false,
     "detail_count": 10
   }

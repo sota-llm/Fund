@@ -1,6 +1,6 @@
 {
   "kind": "hard_tech_fund_overview.v1",
-  "generated_at": "2026-08-27T20:10:17+08:00",
+  "generated_at": "2026-08-27T20:18:24+08:00",
   "as_of": "2026-08-27T15:00:00+08:00",
   "market_status": "已收盘",
   "selection_as_of": "2026-08-27",
@@ -38,13 +38,13 @@
     "refresh_seconds": 30,
     "metadata_refresh_seconds": 21600,
     "ui_refresh_seconds": 10,
-    "cycle_seconds": 0.14402220817282796,
+    "cycle_seconds": 0.15067608281970024,
     "raw_holding_rows": 96,
     "unique_stocks": 58,
     "dedup_saved_rows": 38,
     "quote_batch_requests": 2,
-    "detail_mode": "静态版已预生成全部基金的分钟线、30日走势和持仓详情",
-    "metadata_last_refreshed_at": "2026-08-27T20:10:17+08:00"
+    "detail_mode": "静态版已预生成全部基金的分钟线、近30个自然日走势和持仓详情",
+    "metadata_last_refreshed_at": "2026-08-27T20:18:24+08:00"
   },
   "model": {
     "name": "披露前十归一化 × 披露股票仓位",
@@ -1978,7 +1978,7 @@
   ],
   "publication": {
     "mode": "static_snapshot",
-    "exported_at": "2026-08-27T20:10:17+08:00",
+    "exported_at": "2026-08-27T20:18:24+08:00",
     "automatic_refresh": false,
     "detail_count": 10
   }

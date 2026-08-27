@@ -3,6 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import multi_monitor
 
@@ -11,6 +12,66 @@ class MultiMonitorUnitTests(unittest.TestCase):
     def test_prior_trading_day_skips_weekend(self):
         self.assertEqual(multi_monitor.prior_trading_day("2026-08-24"), "2026-08-21")
         self.assertEqual(multi_monitor.prior_trading_day("2026-08-27"), "2026-08-26")
+
+    def test_natural_day_window_includes_end_date_and_thirty_days(self):
+        start = multi_monitor.natural_day_window_start("2026-08-27", 30)
+        self.assertEqual(start, "2026-07-29")
+        self.assertEqual(
+            (dt.date.fromisoformat("2026-08-27") - dt.date.fromisoformat(start)).days,
+            29,
+        )
+
+    def test_natural_day_window_rejects_non_positive_length(self):
+        with self.assertRaises(ValueError):
+            multi_monitor.natural_day_window_start("2026-08-27", 0)
+
+    def test_comparison_uses_market_trading_dates_inside_calendar_window(self):
+        engine = object.__new__(multi_monitor.MultiFundEngine)
+        engine.latest = {"as_of": "2026-08-27T15:00:00+08:00"}
+        holdings = [
+            {"code": f"00000{index}", "weight_pct": 10.0}
+            for index in range(1, 6)
+        ]
+        holding_history = {
+            "2026-07-28": 1.0,  # 30自然日窗口之外
+            "2026-07-29": 1.0,
+            "2026-08-01": 1.0,  # 模拟异常的非交易日持仓记录
+            "2026-08-03": 1.0,
+        }
+        market_history = {
+            "2026-07-29": 0.5,
+            "2026-08-03": 0.5,
+        }
+        fund = {
+            "holdings": holdings,
+            "top10_weight_pct": 50.0,
+            "previous_nav": {"date": "2026-08-26"},
+            "estimated_nav": None,
+        }
+        nav_rows = [
+            {"date": "2026-07-29", "unit_nav": 1.0},
+            {"date": "2026-08-03", "unit_nav": 1.1},
+        ]
+        with (
+            patch.object(
+                multi_monitor.core,
+                "fetch_tencent_history",
+                return_value=holding_history,
+            ),
+            patch.object(
+                multi_monitor.core,
+                "fetch_tencent_symbol_history",
+                return_value=market_history,
+            ),
+        ):
+            result = engine._build_30d(fund, nav_rows)
+
+        self.assertEqual(result["window"]["start"], "2026-07-29")
+        self.assertEqual(result["window"]["end"], "2026-08-27")
+        self.assertEqual(
+            [point["date"] for point in result["points"]],
+            ["2026-07-29", "2026-08-03"],
+        )
 
     def test_effective_quote_time_is_capped_at_market_close(self):
         self.assertEqual(

@@ -2,7 +2,7 @@
 """十只硬科技基金的共享行情监控器。
 
 资料层（基金持仓、资产配置、正式净值）低频刷新；行情层把所有披露持仓
-去重后批量读取；分钟线和30日组合回算仅在用户打开详情时按需生成。
+去重后批量读取；分钟线和近30个自然日组合回算仅在用户打开详情时按需生成。
 """
 
 from __future__ import annotations
@@ -97,6 +97,14 @@ def prior_trading_day(date_value: str) -> str:
     while value.weekday() >= 5:
         value -= dt.timedelta(days=1)
     return value.isoformat()
+
+
+def natural_day_window_start(date_value: str, days: int = 30) -> str:
+    """返回包含结束日期在内的自然日窗口起点。"""
+    if days < 1:
+        raise ValueError("days 必须大于等于 1")
+    end = dt.date.fromisoformat(date_value)
+    return (end - dt.timedelta(days=days - 1)).isoformat()
 
 
 def effective_quote_time(quote_times: list[str]) -> str:
@@ -379,7 +387,7 @@ class MultiFundEngine:
                 "unique_stocks": len(unique),
                 "dedup_saved_rows": raw_rows - len(unique),
                 "quote_batch_requests": request_count,
-                "detail_mode": "分钟线和30日重仓组合仅在点击具体基金时按需生成并缓存",
+                "detail_mode": "分钟线和近30个自然日重仓组合仅在点击具体基金时按需生成并缓存",
                 "metadata_last_refreshed_at": self.last_metadata_refresh,
             },
             "model": {
@@ -481,7 +489,7 @@ class MultiFundEngine:
 
     def _build_30d(self, fund: dict[str, Any], nav_rows: list[dict[str, Any]]) -> dict[str, Any]:
         data_date = (self.latest or {}).get("as_of", core.iso_now())[:10]
-        begin = (dt.date.fromisoformat(data_date) - dt.timedelta(days=50)).isoformat()
+        begin = natural_day_window_start(data_date, 30)
         histories: dict[str, dict[str, float]] = {}
         with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
             futures = {
@@ -502,14 +510,18 @@ class MultiFundEngine:
             except Exception:
                 market = {}
         holding_by_code = {item["code"]: item for item in fund["holdings"]}
-        dates = sorted(
-            {
-                date
-                for values in histories.values()
-                for date in values
-                if begin <= date < data_date
-            }
-        )[-30:]
+        holding_dates = {
+            date
+            for values in histories.values()
+            for date in values
+            if begin <= date < data_date
+        }
+        # 沪深300的实际行情日期优先作为交易日历；指数源不可用时才退回
+        # 持仓行情日期。两者都只包含真实返回的交易记录，不创建自然日空点。
+        trading_dates = {
+            date for date in market if begin <= date < data_date
+        } or holding_dates
+        dates = sorted(trading_dates)
         nav_by_date = {row["date"]: float(row["unit_nav"]) for row in nav_rows}
         baseline_nav_date = next((date for date in dates if date in nav_by_date), None)
         if baseline_nav_date:
@@ -572,7 +584,13 @@ class MultiFundEngine:
         return {
             "points": points,
             "formal_nav_through": previous.get("date"),
-            "method": "正式净值只画已公布值；当日预测只从T-1正式净值虚线延伸一次。",
+            "window": {
+                "type": "calendar_days",
+                "days": 30,
+                "start": begin,
+                "end": data_date,
+            },
+            "method": "仅保留最近30个自然日内有交易数据的日期；正式净值只画已公布值；当日预测只从T-1正式净值虚线延伸一次。",
         }
 
     def get_detail(self, code: str) -> dict[str, Any]:
@@ -639,7 +657,7 @@ def export_static(
         **overview,
         "pipeline": {
             **overview["pipeline"],
-            "detail_mode": "静态版已预生成全部基金的分钟线、30日走势和持仓详情",
+            "detail_mode": "静态版已预生成全部基金的分钟线、近30个自然日走势和持仓详情",
         },
         "publication": publication,
     }
