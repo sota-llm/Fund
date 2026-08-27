@@ -1,0 +1,10 @@
+{
+  "fund_code": "025348",
+  "fund_name": "华商优势行业灵活配置混合C",
+  "cpo_board_code": "BK1128",
+  "refresh_seconds": 30,
+  "metadata_refresh_seconds": 21600,
+  "history_days": 75,
+  "calibration_days": 30,
+  "server_port": 8765
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# 行情缓存、历史快照、运行日志与按需生成的数据均不进入公开仓库。
+data/

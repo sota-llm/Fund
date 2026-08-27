@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "selection_as_of": "2026-08-27",
+  "universe_note": "依据2026年二季报披露的前十大持仓筛选的硬科技观察池；用于监测，不构成基金推荐或排名。",
+  "funds": [
+    {
+      "code": "025348",
+      "name_hint": "华商优势行业混合C",
+      "themes": ["CPO", "MLCC", "PCB"],
+      "focus": "光模块、被动元件与PCB混合",
+      "selection_source": "https://fund.eastmoney.com/025348.html"
+    },
+    {
+      "code": "008984",
+      "name_hint": "财通科技创新混合C",
+      "themes": ["CPO"],
+      "focus": "高集中度光模块与光器件",
+      "selection_source": "https://fund.eastmoney.com/a/202608053832924370.html"
+    },
+    {
+      "code": "026155",
+      "name_hint": "红土创新新科技股票C",
+      "themes": ["CPO", "半导体"],
+      "focus": "光模块、光纤光缆与半导体",
+      "selection_source": "https://fund.eastmoney.com/a/202607103801730664.html"
+    },
+    {
+      "code": "027939",
+      "name_hint": "财通科创主题灵活配置混合(LOF)C",
+      "themes": ["PCB"],
+      "focus": "PCB整板、覆铜板与连接器",
+      "selection_source": "https://fund.eastmoney.com/a/202608053832924370.html"
+    },
+    {
+      "code": "021528",
+      "name_hint": "财通成长优选混合C",
+      "themes": ["MLCC", "PCB", "CPO"],
+      "focus": "MLCC、PCB上游材料与光芯片",
+      "selection_source": "https://www.guandian.cn/article/20260721/575035.html"
+    },
+    {
+      "code": "011370",
+      "name_hint": "华商均衡成长混合C",
+      "themes": ["CPO", "MLCC", "PCB"],
+      "focus": "光模块向被动元件及上游材料延伸",
+      "selection_source": "https://finance.sina.com.cn/roll/2026-07-21/doc-iniiqefh4870284.shtml"
+    },
+    {
+      "code": "013841",
+      "name_hint": "银华集成电路混合C",
+      "themes": ["半导体"],
+      "focus": "半导体设备、零部件与量测",
+      "selection_source": "https://fund.eastmoney.com/a/202607203813439327.html"
+    },
+    {
+      "code": "026633",
+      "name_hint": "平安半导体领航精选混合发起式C",
+      "themes": ["半导体"],
+      "focus": "半导体设备、量测与零部件",
+      "selection_source": "https://fund.eastmoney.com/a/202607173811081119.html"
+    },
+    {
+      "code": "021627",
+      "name_hint": "华富半导体产业混合发起式C",
+      "themes": ["半导体"],
+      "focus": "芯片设计、制造与设备材料",
+      "selection_source": "https://fund.eastmoney.com/021627.html"
+    },
+    {
+      "code": "020470",
+      "name_hint": "长城半导体混合发起式C",
+      "themes": ["半导体"],
+      "focus": "国产算力、晶圆制造与封测",
+      "selection_source": "https://fund.eastmoney.com/a/202607143805307942.html"
+    }
+  ]
+}
